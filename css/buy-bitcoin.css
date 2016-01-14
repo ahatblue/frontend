@@ -1,0 +1,269 @@
+button{
+    outline: none;
+}
+.ionTabs__body {
+    border-top: 0;
+}
+
+.buy-page {
+    margin: 0 0 30px;
+    padding: 28px 0;
+    width: 100%;
+}
+
+.buy-page h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.buy-page__blocks {
+    width: 80%;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+}
+
+.buy-page__block {
+    width: 24%;
+    float: left;
+    margin-right: 1.334%;
+    padding: 2px;
+}
+
+.buy-page__block:hover {
+    background: #252525;
+}
+
+.buy-page__block:hover .buy-page__block__body__price {
+    color: #fff;
+}
+
+.blocks-wrapper {
+    overflow: hidden;
+}
+
+.blocks-wrapper > div:last-of-type {
+    margin-right: 0;
+}
+
+.buy-page__block__header {
+    width: 100%;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+}
+
+.buy-page__block__body {
+    background: rgba(152, 152, 152, 0.7);
+    margin: 5px 0;
+    padding: 20px;
+}
+
+.buy-page__block__body__price {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.buy-page__block__body__price span {
+    font-size: 16px;
+    position: relative;
+    top: -12px;
+}
+
+.progress-line {
+    position: relative;
+    height: 2px;
+    margin-bottom: 10px;
+    background-image: -webkit-linear-gradient(0, rgb(26, 255, 0) 0%, rgb(255, 166, 0) 49%, rgb(255, 0, 0) 100%, rgba(207, 255, 186, 0) 100%);
+
+}
+
+.progress-line__inner {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    transition: all 1s ease;
+}
+
+.buy-page__block__body__message {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buy-page__block__button {
+    width: 100%;
+    height: 34px;
+}
+
+.buy-page__button {
+    width: 100%;
+    height: 100%;
+    color: #12ff00;
+    border: none;
+    background: #363636;
+    font-weight: bold;
+}
+
+.timer-block {
+    width: 99.5%;
+    margin: 10px auto;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    clear: both;
+}
+
+.timer-block .timer {
+    color: red;
+    cursor: pointer;
+}
+.timer-block .timer:hover {
+    text-decoration: underline;
+}
+
+.timer-block .link {
+    color: #0083fe;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.timer-block .link:hover {
+    text-decoration: none;
+}
+
+.quick-lunch-block {
+    width: 80%;
+    margin: 180px auto;
+    overflow: hidden;
+}
+
+.quick-lunch-block__left {
+    float: left;
+    width: 49%;
+}
+
+.quick-lunch-block__right {
+    float: right;
+    width: 49%;
+}
+
+.quick-button {
+    width: 100%;
+    background: #000;
+    border: none;
+    color: #fff;
+    line-height: 34px;
+}
+
+.quick-button.left span {
+    color: #12ff00;
+}
+
+.quick-button.right span {
+    color: red;
+}
+
+.message {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+}
+.buy-sell-btns{
+    overflow: hidden;
+    width: 280px;
+    margin: auto;
+}
+.bitcalc-form{
+    text-align: center;
+}
+.bit-count-wrapper{
+    display: inline-block;
+}
+.money-count-wrapper{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bit-icon{
+    float: left;
+    width: 20px;
+    height: 22px;
+    line-height: 22px;
+    background: #777;
+    color: #000;
+    font-weight: bold;
+}
+.dollar-icon{
+    float: right;
+    width: 20px;
+    height: 22px;
+    line-height: 22px;
+    background: #777;
+    color: #000;
+    font-weight: bold;
+}
+.buy-sell-btns button{
+    display: block;
+    width: 140px;
+    height: 49px;
+    border: none;
+    background: #777;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    float: left;
+}
+.buy-sell-btns button:hover{
+    background: #515151;
+    color: #fff;
+}
+.buy-sell-btns button.active{
+    background: #af0000;
+    color: #fff;
+}
+.operation-button{
+    display: block;
+    background: #af0000;
+    width: 140px;
+    height: 49px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 50px auto;
+}
+
+.bitcalc-form{
+    text-align: center;
+    padding-top: 30px;
+}
+.bitcalc-form input{
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #777;
+}
+
+.money-count{
+    text-align: right;
+}
+
+.slider-wrapper{
+    position: relative;
+    padding: 100px 0 0 0;
+    width: 80%;
+    margin: auto;
+}

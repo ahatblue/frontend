@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Basic template</title>
+
+    <!-- libs css -->
+    <link rel="stylesheet" href="libs/css/normalize.css">
+    <link rel="stylesheet" href="libs/css/ion.checkRadio.css">
+    <link rel="stylesheet" href="libs/css/ion.tabs.css">
+    <link rel="stylesheet" href="libs/css/bootstrap.css" >
+    <link rel="stylesheet" href="libs/css/jquery.scrollbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/concat-01.css">
+
+</head>
+<body>
+
+
+<div class="cabinet_all_wrap">
+
+    <!-- top line -->
+    <div class="cabinet_top_line">
+        <div class="cabiten_top_line_ul">
+            <span class="top_line_logo"><img src="images/logo2.png" alt="Beetbix">Beetbix</span>
+            <ul>
+                <li>
+                    <select name="top_line_fenix" id="top_line_fenix">
+                        <option value="bitfenix">BITFENIX</option>
+                        <option value="bitfenix">DINFENIX</option>
+                        <option value="bitfenix">TEXTENIT</option>
+                        <option value="bitfenix">MESTENN</option>
+                    </select>                    
+                </li>
+                <li>BTC\USD <span class="green">400.777</span></li>
+                <li>LTC\USD <span class="red">9.777777</span></li>
+                <li>BTC\LTC <span class="green">0.777777</span></li>
+            </ul>
+            <div class="top_line_logged">
+                <span class="top_line_logged_name"><a href="cabinet.html">JACKWOROBEY(profile)</a></span>
+                <span class="top_line_logged_exit">EXIT</span>
+            </div>
+        </div>
+    </div><!-- # top line -->
+
+
+    <!-- TOP LINE SECOND MENU -->
+    <div class="cabinet_top_line_menu">
+        <ul>
+            <li><a href="buy-bitcoin.html">Exchenger</a></li>
+            <li><a href="trading_page.html">trading</a></li>
+            <li><a href="new-wallet-account.html">wallet</a></li>
+            <li><a href="mining.html">Mining</a></li>
+        </ul>
+        <span class="menu_button"><span class="text">menu</span></span>
+
+    </div><!-- # TOP LINE SECOND MENU -->
+
+    <!-- right menu -->
+    <div class="right_menu right_menu_close">
+        <div class="right_menu_close_bg"></div>
+        <title>Tool's</title>
+        <ul>
+            <li>
+                <div class="right_menu_button"></div>
+            </li>
+            <li>
+                <div class="right_menu_button">O</div>
+            </li>
+            <li>
+                <div class="right_menu_button">B</div>
+            </li>
+            <li>
+                <div class="right_menu_button">S</div>
+            </li>
+            <li>
+                <div class="right_menu_button">W</div>
+            </li>
+            <li>
+                <div class="right_menu_button">FAQ</div>
+            </li>
+        </ul>
+    </div><!-- # right menu -->
+    <div class="right_menu_close_btn">
+        <span><i class="fa fa-play"></i></span>
+    </div><!-- # right menu close btn -->
+
+
+    <div class="cabinet">
+        <div class="account_settings_title">
+            <h1>WALLET</h1>
+            <i class="fa fa-cog"></i>
+        </div>
+
+        <div class="buy-page">
+            <h1>CREATE A NEW WALLET accounts</h1>
+
+            <div class="wrapper">
+                <div class="verify-info-text">
+                    <a href="">Verifications</a> please, about autorization in wallet pref...
+                </div>
+                <div class="support-tab__buttons">
+                    <button class="red-button button button-send addWallet">ADD WALLET</button>
+                    <button class="red-button button button-add">ADD VAULT</button>
+                </div>
+                <div class="new-wallet-tabs">
+                    <ul class="ionTabs__head">
+                        <li class="ionTabs__tab ionTabs__tab_state_active" data-target="Tab_1_name"
+                            id="Button__Tabs_Group_name__Tab_1_name">ACCOUNTS
+                        </li>
+                        <li class="ionTabs__tab" data-target="Tab_2_name" id="Button__Tabs_Group_name__Tab_2_name">
+                            SEND/REQUEST
+                        </li>
+                        <li class="ionTabs__tab" data-target="Tab_3_name" id="Button__Tabs_Group_name__Tab_3_name">
+                            SETTINGS
+                        </li>
+                    </ul>
+                </div>
+                <div class="hr"></div>
+                <div class="new-wallet__inner-header__account">
+                    ACCOUNTS:
+                </div>
+                <table class="new-wallet__accounts__table" cellspacing="3">
+                    <tbody>
+                    <thead>
+                    <td>LABEL</td>
+                    <td>BALANCE</td>
+                    <td>LAST ACTIVITY</td>
+                    <td>POSITION</td>
+                    <td>ACTIONS</td>
+                    </thead>
+                    <tr>
+                        <td class="name">BTC WALLET</td>
+                        <td>0 bits<span class="green-span"> ≈ 0.00 USD</span></td>
+                        <td>9 mounths ago</td>
+                        <td><span class="primary">PRIMARY</span></td>
+                        <td class="buttons">
+                            <span class="get-button">GET bitcoin adr. <img src="images/GETbitcoinadr.png" alt=""></span>
+                            <span class="up-button"> <img src="images/buttonstrelka.png" alt=""></span>
+                            <span class="rename-button">RENAME</span>
+                            <span class="close-button"><img src="images/x.png" alt=""></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">TEMP</td>
+                        <td>0 bits<span class="green-span"> ≈ 0.00 USD</span></td>
+                        <td>about 4 hours ago</td>
+                        <td><span class="unconfigured">unconfigured</span></td>
+                        <td class="buttons">
+                            <span class="get-button">GET bitcoin adr. <img src="images/GETbitcoinadr.png" alt=""></span>
+                            <span class="up-button"> <img src="images/buttonstrelka.png" alt=""></span>
+                            <span class="rename-button">RENAME</span>
+                            <span class="close-button"><img src="images/x.png" alt=""></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">BTC VAULT</td>
+                        <td>0 bits<span class="green-span"> ≈ 0.00 USD</span></td>
+                        <td>Needs to finish setup</td>
+                        <td></td>
+                        <td class="buttons">
+                            <span class="get-button">GET bitcoin adr. <img src="images/GETbitcoinadr.png" alt=""></span>
+                            <span class="up-button"> <img src="images/buttonstrelka.png" alt=""></span>
+                            <span class="rename-button">RENAME</span>
+                            <span class="close-button"><img src="images/x.png" alt=""></span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="under-table-info">
+                    Bitcoin sent to your email address will arrive in your primary account
+                </div>
+                <div class="transfer-bit-button">
+                    <img src="images/people.png" alt=""></br>
+                    <button class="button red-button">TRANSFER BITCOIN <img src="images/36.png" alt=""></button>
+                    <div class="info-text">You can send money anywhere on the planet</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--  # CABINET    -->
+</div>
+
+
+<footer> copyright Bitbeex & Privacy</footer>
+
+</div>
+
+<div class="dark-shim"></div>
+<div class="popup-wrapper">
+    <div class="popup-block">
+
+    </div>
+</div>
+
+<div class="transfer-bitcoin-popup">
+    <div class="popup-header">
+        TRANSFER BITCOIN:
+    </div>
+    <div class="popup-body">
+        <div class="popup-body__tr-bitcoin">
+            <table>
+                <tr>
+                    <td>FROM:</td>
+                    <td><select name="" id=""></select></td>
+                </tr>
+                <tr>
+                    <td>TO:</td>
+                    <td><select name="" id=""></select></td>
+                </tr>
+                <tr>
+                    <td>AMOUNT:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="align-top">MESSAGE:</td>
+                    <td><textarea name="" id="" placeholder="Your message text..."></textarea></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="support-tab__buttons">
+        <button class="button button-send cancel-btn">CANCEL</button>
+        <button class="button button-add">TRANSFER</button>
+    </div>
+</div>
+
+<div class="add-wallet-popup">
+    <div class="popup-header">
+        VERIFY PHONE NUMBER:
+    </div>
+    <div class="popup-body">
+        <div class="popup-body__verify-phone">
+            <div class="popup-body__verify-phone__message">
+                <img src="images/security_phone.png" alt="">
+                <span>We just sent an SMS to +380 951166647 with your 7-digit
+                verification code. It may take several seconds to arrive.</span>
+
+            </div>
+
+            <div class="popup-body__verify-phone__verify-block">
+                <img src="images/security_phone.png" alt="">
+                Enter your 2-step verification code.<br/>
+                <input type="text">
+                <button class="button sendSMS">Send SMS</button>
+                <button class="button phoneCall">Phone Call</button><br/>
+                Authy and Google Authenticator can be enabled in Settings.
+            </div>
+
+        </div>
+    </div>
+    <div class="support-tab__buttons">
+        <button class="button button-send cancel-btn">CANCEL</button>
+        <button class="button button-add">VERIFY NUMBER</button>
+    </div>
+</div>
+
+
+<!-- jquery js -->
+<script src="libs/js/jquery-2.1.4.min.js"></script>
+<!-- scroll bar -->
+<script src="libs/js/jquery.scrollbar.js"></script>
+<!-- custom checkbox js -->
+<script src="libs/js/ion.checkRadio.js"></script>
+<!-- ion tabs js -->
+<script src="libs/js/ion.tabs.js"></script>
+<!-- validation js -->
+<script src="libs/js/jquery.validate.js"></script>
+<!-- image fill js -->
+<script src="libs/js/jquery-imagefill.js"></script>
+<!-- my scripts js -->
+<script src="js/my_scripts.js"></script>
+<!-- new wallet account -->
+<script src="js/new-wallet-account.js"></script>
+</body>
+</html>

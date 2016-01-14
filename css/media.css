@@ -1,0 +1,46 @@
+
+@media screen and (min-width: 1800px) {
+	.ionTabs__head { width: 1230px; }
+	.ionTabs__tab { padding: 17px 12px 10px; font-size: 14px;
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 1800px) {
+
+	.ionTabs__head { width: 1230px; }
+	.ionTabs__tab { padding: 17px 12px 10px; font-size: 15px; }
+
+
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	
+	/*.cabinet_all_wrap .cabinet { width: 96%; }*/
+	.ionTabs__head { width: 1000px; }
+	.ionTabs__tab { padding: 17px 9px 10px; font-size: 12px; }
+	.ionTabs__tab.ionTabs__tab_state_active {  padding: 12px 20px 11px; }
+
+
+
+}
+
+
+
+@media screen and (max-width: 1135px) {
+
+	/*.cabinet_all_wrap .cabinet { width: 96%; }*/
+	.ionTabs__head { width: 900px; }
+	.ionTabs__tab {
+		padding: 17px 10px 10px;
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+
+
+}

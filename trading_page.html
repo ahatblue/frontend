@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Basic template</title>
+    
+    <!-- libs css -->
+    <link rel="stylesheet" href="libs/css/normalize.css">
+    <link rel="stylesheet" href="libs/css/ion.checkRadio.css">
+    <link rel="stylesheet" href="libs/css/ion.tabs.css">
+    <link rel="stylesheet" href="libs/css/bootstrap.css" >
+    <link rel="stylesheet" href="libs/css/jquery.scrollbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/concat-01.css">
+
+    </head>
+    <body>
+
+    <!-- trading page all wrapp -->
+    <div class="trading_page_all_wrapp">
+        
+    <!-- top line -->
+    <div class="cabinet_top_line">
+        <div class="cabiten_top_line_ul">
+            <span class="top_line_logo"><img src="images/logo2.png" alt="Beetbix">Beetbix</span>
+            <ul>
+                <li>
+                    <select name="top_line_fenix" id="top_line_fenix">
+                        <option value="bitfenix">BITFENIX</option>
+                        <option value="bitfenix">DINFENIX</option>
+                        <option value="bitfenix">TEXTENIT</option>
+                        <option value="bitfenix">MESTENN</option>
+                    </select>                    
+                </li>
+                <li>BTC\USD <span class="green">400.777</span></li>
+                <li>LTC\USD <span class="red">9.777777</span></li>
+                <li>BTC\LTC <span class="green">0.777777</span></li>
+            </ul>
+            <div class="top_line_logged">
+                <span class="top_line_logged_name"><a href="cabinet.html">JACKWOROBEY(profile)</a></span>
+                <span class="top_line_logged_exit">EXIT</span>
+            </div>
+        </div>
+    </div><!-- # top line -->
+
+
+    <!-- TOP LINE SECOND MENU -->
+    <div class="cabinet_top_line_menu">
+        <ul>
+            <li><a href="buy-bitcoin.html">Exchenger</a></li>
+            <li><a href="trading_page.html">trading</a></li>
+            <li><a href="new-wallet-account.html">wallet</a></li>
+            <li><a href="mining.html">Mining</a></li>
+        </ul>
+        <span class="menu_button"><span class="text">menu</span></span>
+
+    </div><!-- # TOP LINE SECOND MENU -->
+
+    <!-- right menu -->
+    <div class="right_menu right_menu_close">
+        <div class="right_menu_close_bg"></div>
+        <title>Tool's</title>
+        <ul>
+            <li>
+                <div class="right_menu_button"></div>
+            </li>
+            <li>
+                <div class="right_menu_button">O</div>
+            </li>
+            <li>
+                <div class="right_menu_button">B</div>
+            </li>
+            <li>
+                <div class="right_menu_button">S</div>
+            </li>
+            <li>
+                <div class="right_menu_button">W</div>
+            </li>
+            <li>
+                <div class="right_menu_button">FAQ</div>
+            </li>
+        </ul>
+    </div><!-- # right menu -->
+    <div class="right_menu_close_btn">
+        <span><i class="fa fa-play"></i></span>
+    </div><!-- # right menu close btn -->
+
+
+    <!-- all trade main contant -->
+    <div class="trade_main_contant">
+
+        <!-- left side -->
+
+        <div class="trade_top_pair_block">
+            <ul>
+                <li class="active">BTC\USD <span class="price">8.46</span></li>
+                <li>LTC\USD <span class="price">27.14</span></li>
+                <li>LTC\BTC <span class="price">3.519</span></li>
+                <li>BTC\EUR <span class="price">3.519</span></li>
+                <li>LTC\EUR <span class="price">3.519</span></li>
+                <li>NMC\BTC <span class="price">3.519</span></li>
+                <li>NMC\USD <span class="price">3.519</span></li>
+                <li>NVC\USD <span class="price">3.519</span></li>
+                <li>BTC\RUR <span class="price">3.519</span></li>
+                <li>LTC\RUR <span class="price">3.519</span></li>
+                <li>USD\RUR <span class="price">3.519</span></li>
+                <li>EUR\USD <span class="price">3.519</span></li>
+                <li>PPC\BTC <span class="price">3.519</span></li>
+                <li>PPC\USD <span class="price">3.519</span></li>
+                <li>DOG\BTC <span class="price">3.519</span></li>
+                <li>DOG\USD <span class="price">3.519</span></li>
+                <li>DOG\EUR <span class="price">3.519</span></li>
+                <li>LTC\USD <span class="price">3.519</span></li>
+            </ul>
+        </div><!-- # trade top pair block -->
+
+        <!-- grafick widget block -->
+        <div class="main_grafic_widget_block">
+
+            <!-- TradingView Widget BEGIN -->
+                <script type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+                <script type="text/javascript">
+                new TradingView.widget({
+                  "autosize": true,
+                  "symbol": "FX:SPX500",
+                  "interval": "D",
+                  "timezone": "Etc/UTC",
+                  "theme": "Grey",
+                  "style": "1",
+                  "locale": "ru",
+                  "toolbar_bg": "#f1f3f6",
+                  "withdateranges": true,
+                  "hide_side_toolbar": false,
+                  "allow_symbol_change": true,
+                  "hideideas": true,
+                  "show_popup_button": true,
+                  "popup_width": "1000",
+                  "popup_height": "650"
+                });
+                </script>
+                <!-- TradingView Widget END -->
+
+        </div><!-- # grafick widget block -->
+
+        <!-- trade page bottom history of orders tabs -->
+        <div class="trade_page_bottom_tabs_block">
+
+
+            <div class="ionTabs" id="tabs_1" data-name="Tabs_Group_name">
+                <ul class="ionTabs__head">
+                    <li class="ionTabs__tab" data-target="Tab_1_name">Active Orders</li>
+                    <li class="ionTabs__tab" data-target="Tab_2_name">Orders History</li>
+                    <li class="ionTabs__tab" data-target="Tab_3_name">Transactions Historys</li>
+                    <span class="icon_02_black"><i class="fa fa-long-arrow-right"></i></span>
+                </ul>
+                <div class="ionTabs__body scrollbar-macosx">
+                    <div class="ionTabs__item" data-name="Tab_1_name">
+                        <table id="active_orders_tab">
+                            <thead>
+                                <tr>
+                                    <td>Type</td>
+                                    <td>Price</td>
+                                    <td>Amount BTC</td>
+                                    <td>Total USD</td>
+                                    <td>Date</td>
+                                    <td>Actions</td>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <!--  <tr>
+                                    <td>Type</td>
+                                    <td class="active_orders_tab_price_td">Price</td>
+                                    <td>Amount BTC</td>
+                                    <td>Total USD</td>
+                                    <td class="active_orders_tab_date_td">Date</td>
+                                    <td>Actions <span class="delete">x</span></td>
+
+                                </tr>
+                                <tr>
+                                    <td>Type</td>
+                                    <td class="active_orders_tab_price_td">Price</td>
+                                    <td>Amount BTC</td>
+                                    <td>Total USD</td>
+                                    <td class="active_orders_tab_date_td">Date</td>
+                                    <td>Actions <span class="delete">x</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Type</td>
+                                    <td class="active_orders_tab_price_td">Price</td>
+                                    <td>Amount BTC</td>
+                                    <td>Total USD</td>
+                                    <td class="active_orders_tab_date_td">Date</td>
+                                    <td>Actions <span class="delete">x</span></td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="ionTabs__item" data-name="Tab_2_name">
+                        Orders History
+                    </div>
+                    <div class="ionTabs__item" data-name="Tab_3_name">
+                        Transactions Historys
+                    </div>
+
+                    <div class="ionTabs__preloader"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div><!-- # trade main contant -->
+
+
+        <!-- right side -->
+        
+        <!-- trade_main_contant_right -->
+        <div class="trade_main_contant_right">
+            <div id="trade_page_buy" class="trade_page_buy_sell">
+                <h1>buy block  <span class="icon_02"><i class="fa fa-long-arrow-right"></i></span></h1>
+
+                <div class="balance_block_wrapp">
+
+                    
+
+                    <div class="balance_top_price">
+                        <span class="text">Balance:</span>
+                        <span class="price">0 USD</span>
+                    </div>    
+
+                    <div class="minimal_price">
+                        <span class="text">Min price:</span><span class="price">400.777</span>
+                    </div>
+
+                    <div class="summary_btc">
+                        <span class="text">Amount BTC:</span>
+                        <input type="text" name='summary_btc' placeholder="0">
+                    </div>
+
+                    <div class="price_for_btc">
+                        <span class="text">Price BTC:</span>
+                        <input type="text" name='price_btc'>
+                        <span class="usd">USD</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="text">Total:</span>
+                        <span class="price">0 USD</span>
+                    </div>
+
+                    <div class="commision">
+                        <span class="text">Сommission:</span>
+                        <span class="price">0 BTC</span>
+                    </div>
+
+                    <span class="calculate_text">
+                        <p>
+                            Click "calculate" button to calculate the <br> amount in accordance with your order.
+                        </p>
+                    </span>
+
+                </div><!-- # balance block -->
+
+                <!-- buttons calculate and buy -->
+                <div class="calculate_and_buy_btn">
+                    <div class="calculate">CALCULATE</div>
+                    <div class="buy"><span class="green_text">BUY</span></div>
+                </div>
+
+                <!-- orders to sell and buy block -->
+                <div class="orders_to_sell_buy_wrap">
+                    <h1>Orders to buy</h1>
+                    <span class="total">TOTAL <span class="price">9.999</span> BTC</span>
+                    <div class="table_wrapp scrollbar-macosx">
+                        <table class="orders_to_buy" id="buy_">
+                            <thead>
+                                <tr>
+                                    <td>PRICE</td>
+                                    <td>USD</td>
+                                    <td>BTC</td>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td>500.777</td>
+                                    <td>14.258754</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00992</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+                    
+                <!-- block for closing state bg -->
+                <div class="closing_state_bg"></div>
+
+                <div class="trade_page_buy_sell_close_up_btn_1"><i class="fa fa-play"></i></div>
+                <div class="trade_page_buy_sell_close_btn_1"><i class="fa fa-play"></i></div>
+            </div>
+
+            <div id="trade_page_sell" class="trade_page_buy_sell">
+                <h1>Sell block <span class="icon_02"><i class="fa fa-long-arrow-right"></i></span></h1>
+
+                <div class="balance_block_wrapp">
+
+                    
+
+                    <div class="balance_top_price">
+                        <span class="text">Balance:</span>
+                        <span class="price">0 USD</span>
+                    </div>    
+
+                    <div class="minimal_price">
+                        <span class="text">Max price:</span><span class="price">400.777</span>
+                    </div>
+
+                    <div class="summary_btc">
+                        <span class="text">Amount BTC:</span>
+                        <input type="text" name='summary_btc' placeholder="0">
+                    </div>
+
+                    <div class="price_for_btc">
+                        <span class="text">Price BTC:</span>
+                        <input type="text" name='price_btc'>
+                        <span class="usd">USD</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="text">Total</span>
+                        <span class="price">0 USD</span>
+                    </div>
+
+                    <div class="commision">
+                        <span class="text">Сommission</span>
+                        <span class="price">0 BTC</span>
+                    </div>
+
+                    <span class="calculate_text">
+                        <p>
+                            Click "calculate" button to calculate the <br> amount in accordance with your order.
+                        </p>
+                    </span>
+
+                </div><!-- # balance block -->
+
+                <!-- buttons calculate and buy -->
+                <div class="calculate_and_buy_btn">
+                    <div class="calculate">CALCULATE</div>
+                    <div class="buy"><span class="red_bright">SELL</span></div>
+                </div>
+
+                <!-- orders to sell and buy block -->
+                <div class="orders_to_sell_buy_wrap">
+                    <h1>Orders to sell</h1>
+                    <span class="total">TOTAL <span class="price">9.999 </span> USD</span>
+                    <div class="table_wrapp scrollbar-macosx">
+                        <table class="orders_to_buy" id="sell_">
+                            <thead>
+                                <tr>
+                                    <td>PRICE</td>
+                                    <td>USD</td>
+                                    <td>BTC</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>72</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                                <tr>
+                                    <td>400.777</td>
+                                    <td>14.258754</td>
+                                    <td>0.00072</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+                
+                <!-- block for closing state bg -->
+                <div class="closing_state_bg"></div>
+
+                <div class="trade_page_buy_sell_close_up_btn_2"><i class="fa fa-play"></i></div>
+                <div class="trade_page_buy_sell_close_btn_2"><i class="fa fa-play"></i></div>
+            </div>
+        </div>
+        
+        </div><!-- # trade_main_contant_right -->
+
+
+
+
+
+
+
+
+
+    <!-- test help windows wrap -->
+<!--     <div class="test_help_window_wrap">
+
+        <img class="preloader" src="images/preloader.gif" alt="preloader">
+         -->
+        <!-- first help window (graphic) -->
+<!--         <div class="first_help_window">
+            <p>
+                This is main graphic that show's realtime data..
+            </p>
+
+            <button class="next_window_1"> next</button>
+        </div> -->
+
+        <!-- second help window ( valut pair ) -->
+
+<!--         <div class="second_help_window">
+            <p>
+                This is valut pair's, you can choose what you need 
+            </p>
+            <button class="prev_window_2">prev</button>
+            <button class="next_window_2"> next</button>
+        </div>
+
+
+        <button class="help_skip">Skip</button>
+
+    </div> -->
+
+
+
+  </div> <!-- # trading page all wrapp -->
+
+    
+
+
+    <footer>
+        copyright Bitbeex & Privacy
+    </footer>
+    
+    <!-- jquery js -->
+    <script src="libs/js/jquery-2.1.4.min.js"></script>
+    <!-- custom checkbox js -->
+    <script src="libs/js/ion.checkRadio.js"></script>
+    <!-- ion tabs js -->
+    <script src="libs/js/ion.tabs.js"></script>
+    <!-- validation js -->
+    <script src="libs/js/jquery.validate.js"></script>
+    <!-- image fill js -->
+    <script src="libs/js/jquery-imagefill.js"></script>
+    <!-- scroll bar js -->
+    <script src="libs/js/jquery.scrollbar.js"></script>
+    <!-- my scripts js -->
+    <script src="js/my_scripts.js"></script>
+
+  </body>
+</html>

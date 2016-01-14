@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Coco Gothic';
+  src:  url('/fonts/CocoGothicBoldItalic-trial.ttf') format('ttf'),
+		url('/fonts/CocoGothicBoldItalic-trial.ttf') format('truetype');
+        
+}
+
+@font-face {
+  font-family: 'Segoeui';
+  src:  url('/fonts/segoeui.ttf') format('ttf'),
+		url('/fonts/segoeui.ttf') format('truetype');
+        
+}

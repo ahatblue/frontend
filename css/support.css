@@ -1,0 +1,365 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../fonts/icomoon.eot?e88y6z');
+    src: url('../../fonts/icomoon.eot?e88y6z#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?e88y6z') format('truetype'),
+    url('../../fonts/icomoon.woff?e88y6z') format('woff'),
+    url('../../fonts/icomoon.svg?e88y6z#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bin2:before {
+    content: "\e902";
+}
+
+.icon-star-empty:before {
+    content: "\e903";
+}
+
+.icon-star-full:before {
+    content: "\e904";
+}
+
+.icon-checkbox-checked:before {
+    content: "\e900";
+}
+
+.icon-checkbox-unchecked:before {
+    content: "\e901";
+}
+
+.icon-info:before {
+    content: "\e905";
+}
+
+.icon-circle-down:before {
+    content: "\e906";
+}
+
+.h1-header {
+    margin: 20px 0 0 0;
+}
+
+.support-tab__choose-category {
+    width: 100%;
+    overflow: hidden;
+}
+
+.support-tab__choose-category select {
+    width: 45%;
+    float: right;
+    padding: 0 10px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.support-tab__ticket-message {
+    border-bottom: 1px solid #000;
+}
+
+.support-tab__ticket-message .header {
+    height: 40px;
+    background: #555;
+    margin: 10px 0;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.support-tab__ticket-message textarea {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+    outline: none;
+    padding: 10px;
+}
+
+.support-tab__ticket-message .message {
+    float: left;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.support-tab__ticket-message .attachment-files {
+    float: right;
+    font-size: 12px;
+    color: #006cff;
+}
+
+.support-tab__ticket-message .attachment-files span {
+    line-height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.support-tab__buttons {
+    clear: both;
+    margin: 10px 0;
+}
+
+.support-tab__buttons .button {
+    margin: 10px 0;
+    float: left;
+    width: 49%;
+    height: 36px;
+    outline: none;
+}
+
+.support-tab__buttons .button-send {
+    margin-right: 1%;
+}
+
+.support-tab__buttons .button-add {
+    margin-left: 1%;
+}
+
+.clear {
+    clear: both;
+}
+
+.your-message-block {
+    margin-top: 30px;
+}
+
+.your-message-block__info {
+    width: 119px;
+    float: left;
+    margin-right: -150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.your-message-block__info__header {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.m-info {
+    font-weight: bold;
+    color: #AF0000;
+}
+
+.m-info .sort {
+    display: inline-block;
+}
+
+.inbox, .outbox, .market, .important, .sort {
+    cursor: pointer;
+}
+
+.market {
+    margin-top: 10px;
+}
+
+.black-color {
+    color: #000;
+}
+
+.write-message-block {
+    position: relative;
+    width: 49%;
+    float: left;
+    padding-left: 132px;
+}
+
+.write-message-block__header {
+    background: rgba(100, 100, 100, .6);
+    width: 100%;
+    height: 20px;
+    padding: 0 3px;
+}
+
+.write-message-block__header .more {
+    height: 100%;
+    width: 60px;
+    line-height: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.write-message-block__header .remove {
+    float: left;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+.check-all input, .check-star input {
+    display: none;
+}
+
+.check-star {
+    margin-left: 2px;
+    margin-right: 20px;
+    cursor: pointer;
+    float: left;
+    margin-top: 1px;
+}
+
+.check-all {
+    float: left;
+    margin: 0 7px 0 0;
+    margin-top: 1px;
+}
+
+.icon-checkbox-checked, .icon-star-full {
+    display: none;
+}
+
+.check-all input[type="checkbox"]:checked ~ .icon-checkbox-checked {
+    display: inline;
+}
+
+.check-all input[type="checkbox"]:checked + .icon-checkbox-unchecked {
+    display: none;
+}
+
+.check-star input[type="checkbox"]:checked ~ .icon-star-full {
+    display: inline;
+}
+
+.check-star input[type="checkbox"]:checked + .icon-star-empty {
+    display: none;
+}
+.inner-block{
+    width: 100%;
+    height: 100%;
+}
+.write-message-block__body {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 2px;
+    padding: 5px 0;
+    background: rgba(100, 100, 100, .6);
+}
+
+.write-message-block__body .message-line {
+    position: relative;
+    overflow: hidden;
+    padding: 0 20px 0 3px;
+}
+
+.write-message-block__body .message-line .check-star {
+    color: #fff;
+    margin: 0 7px 0 0;
+}
+
+.message-line .icons {
+    position: absolute;
+    overflow: hidden;
+    width: 56px;
+    float: left;
+    margin-right: -56px;
+}
+
+.message-line__info {
+    float: left;
+    color: #fff;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.message-line .name, .message-line .title {
+    width: 100%;
+    float: left;
+    padding: 0 0 0 72px;
+    color: #fff;
+}
+
+.message-line .name, .message-line .title span {
+    width: 100%;
+    display: inline-block;
+    background: #696868;
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.full-message-block {
+    width: 100%;
+    height: 225px;
+    padding-left: 51%;
+}
+
+.full-message {
+    float: right;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #000;
+    overflow: auto;
+}
+
+.full-message__header {
+    padding: 10px;
+}
+
+.full-message__body {
+    padding: 0 15px;
+}
+
+.full-message__header .check-star {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.full-message__header .full-message-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #AF0000;
+}
+
+.more i{
+    font-size: 10px;
+}
+.sort i{
+    font-size: 10px;
+    color: #000;
+}
+.more{
+    position: relative;
+}
+.more-inner-block{
+    position: absolute;
+    width: 109px;
+    top: 20px;
+    z-index: 1;
+    background: #fff;
+    padding: 10px;
+    cursor: context-menu;
+}
+.more-inner-block ul{
+    list-style: none;
+    padding: 10px 0 0 5px;
+}
+.more-inner-block ul li{
+    cursor: pointer;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.more-inner-block span{
+    font-weight: bold;
+    color: #AF0000;
+}

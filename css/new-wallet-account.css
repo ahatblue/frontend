@@ -1,0 +1,374 @@
+button {
+    outline: none;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+}
+.ionTabs__body {
+    border-top: 0;
+}
+
+.buy-page {
+    margin: 0 0 30px;
+    padding: 28px 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.buy-page h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.verify-info-text {
+    text-align: center;
+}
+
+.support-tab__buttons {
+    overflow: hidden;
+    margin: 0px auto 0 auto;
+}
+
+.support-tab__buttons .button-send{
+    background: #555;
+    border: 0;
+    color: #fff;
+}
+
+.support-tab__buttons .button-add{
+    background: #000;
+    border: 0;
+    color: #12ff00;
+}
+
+.support-tab__buttons .button {
+    margin: 10px 0;
+    float: left;
+    width: 49%;
+    height: 36px;
+    outline: none;
+    -webkit-box-shadow:rgba(255, 255, 255, 0.498039) 0px 0px 10px 0px;
+    -moz-box-shadow:rgba(255, 255, 255, 0.498039) 0px 0px 10px 0px;
+    box-shadow:rgba(255, 255, 255, 0.498039) 0px 0px 10px 0px;
+}
+
+.support-tab__buttons .button-send {
+    margin-right: 1%;
+}
+
+.support-tab__buttons .button-add {
+    margin-left: 1%;
+}
+
+.red-button {
+    background: #890d0a;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ionTabs__head {
+    width: 326px;
+    margin-top: 30px;
+}
+
+.ionTabs__head li:last-child {
+    margin-right: 0;
+}
+
+.ionTabs__tab {
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.hr {
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+.new-wallet__inner-header__account {
+    height: 33px;
+    background: #555;
+    margin: 3px 0;
+    line-height: 33px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.new-wallet__accounts__table {
+    width: 100%;
+    margin-top: 15px;
+}
+table{
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+.new-wallet__accounts__table thead {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.new-wallet__accounts__table thead tr td{
+    padding: 0 0 5px 0;
+}
+
+.new-wallet__accounts__table tbody tr {
+    font-weight: bold;
+    /*border: 1px solid #000;*/
+    line-height: 29px;
+    font-size: 12px;
+    outline: 1px solid #000;
+}
+
+.new-wallet__accounts__table tbody tr td.name{
+    padding: 0 5px;
+    font-size: 14px;
+}
+.new-wallet__accounts__table tbody tr td.buttons{
+    width: 209px;
+}
+
+.green-span{
+    color: #039024;
+}
+
+.unconfigured{
+    padding: 2px;
+    background-color:  #ff8a00;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.primary{
+    background-color:  #890d0a;
+    padding: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.get-button{
+    position: relative;
+    background-color: #6c6c6c;
+    display: block;
+    width: 106px;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.up-button{
+    position: relative;
+    background-color:  #555555;
+    display: block;
+    width: 24px;
+    height: 21px;
+    float: left;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.up-button img{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+
+.rename-button{
+    display: block;
+    background-color:  #323131;
+    width: 52px;
+    height: 21px;
+    line-height: 21px;
+    float: left;
+    padding: 0 5px;
+    margin-left: 2px;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.close-button{
+    display: block;
+    float: left;
+    background-color:  #f26d7d;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.under-table-info{
+    font-size: 11px;
+    border-bottom: 1px solid #000;
+    padding: 10px 0 13px 0;
+}
+.transfer-bit-button{
+    margin-top: 30px;
+    text-align: center;
+}
+.transfer-bit-button img{
+    margin: 10px 0 10px 0;
+}
+.transfer-bit-button button{
+    margin: 20px 0;
+    width: 49%;
+    height: 36px;
+    outline: none;
+    margin-bottom: 5px;
+}
+.transfer-bit-button button img{
+    margin-left: 10px;
+}
+
+.info-text{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.get-button img{
+    position: absolute;
+    top: 6px;
+    right: 3px;
+}
+
+.dark-shim{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: all .3s ease;
+}
+.dark-shim.show{
+    visibility: visible;
+    opacity: 0.75;
+}
+
+.popup-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.popup-wrapper.show{
+    visibility: visible;
+    opacity: 1;
+    display: flex!important;
+}
+.popup-block{
+    width: 600px;
+}
+.popup-block .popup-header{
+    background: #890d0a;
+    border: none;
+    color: white;
+    height: 36px;
+    line-height: 39px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.popup-body{
+    background: #fff;
+    min-height: 200px;
+    margin-top: 5px;
+    padding: 15px;
+    opacity: .8;
+}
+
+.popup-body__tr-bitcoin{
+    border: 1px solid #000;
+}
+
+.popup-body__tr-bitcoin table{
+    width: 80%;
+    margin: 30px auto 18px auto;
+    border-spacing: 23px;
+    font-weight: bold;
+}
+.popup-body__tr-bitcoin table select{
+    width: 100%;
+    height: 29px;
+    background: #c2c2c2;
+    border: 1px solid #000;
+    font-weight: normal;
+    padding: 0 10px;
+}
+.popup-body__tr-bitcoin table input{
+    width: 100%;
+    height: 29px;
+    background: #c2c2c2;
+    border: 1px solid #000;
+    font-weight: normal;
+    padding: 0 10px;
+}
+.popup-body__tr-bitcoin table textarea{
+    width: 100%;
+    resize: vertical;
+    border: 1px solid #000;
+    height: 87px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.align-top{
+    vertical-align: top;
+}
+
+.transfer-bitcoin-popup{
+    display: none;
+}
+
+.add-wallet-popup{
+    display: none;
+}
+
+.popup-body__verify-phone__message{
+    padding: 15px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.popup-body__verify-phone__message img{
+    float: left;
+    margin-right: 20px;
+}
+
+.popup-body__verify-phone__verify-block{
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.popup-body__verify-phone__verify-block img{
+    float: left;
+    margin-right: 20px;
+}

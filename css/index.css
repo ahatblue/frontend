@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?e88y6z');
+    src: url('../fonts/icomoon.eot?e88y6z#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e88y6z') format('truetype'),
+    url('../fonts/icomoon.woff?e88y6z') format('woff'),
+    url('../fonts/icomoon.svg?e88y6z#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkbox-checked:before {
+    content: "\e900";
+}
+
+.icon-checkbox-unchecked:before {
+    content: "\e901";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 58px;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+.header__twins {
+    margin: auto;
+    line-height: 58px;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header__twins ul {
+    /*float: left;*/
+    /*width: 190px;*/
+    /*text-align: center;*/
+    display: inline-block;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.header__twins ul li{
+    float: left;
+    width: 190px;
+    text-align: center;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: url('../images/sing_up.jpg') center center;
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    width: 18%;
+    min-width: 200px;
+    margin-top: 50px;
+}
+
+.link {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 19px;
+}
+.buttons{
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+.buttons .button-reg {
+    position: relative;
+    float: left;
+    color: #000;
+    text-align: center;
+    /*margin: 21px auto 0;*/
+    line-height: 40px;
+    font-size: 12px;
+    background: #fff;
+    width: 179px;
+    cursor: pointer;
+    margin-right: 30px;
+    letter-spacing: 2px;
+}
+.buttons .button-login {
+    position: relative;
+    float: left;
+    /*font-weight: bold;*/
+    color: #000;
+    text-align: center;
+    background: #fff;
+    /*margin: 21px auto 0;*/
+    line-height: 40px;
+    font-size: 12px;
+    width: 179px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.reg-form,.login-form {
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px 40px;
+    color: #303030;
+}
+
+.reg-form-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.reg-form input, .login-form input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+}
+
+.reg-form input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    outline: none;
+}
+
+.reg-form label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.login-form label{
+    display: block;
+    margin-bottom: 29px;
+}
+
+.reg-form label.agree-message {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.remember {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+
+.remember a {
+    text-decoration: none;
+    color: #006cff;
+}
+.agree-message a {
+    text-decoration: none;
+    color: #006cff;
+}
+
+.agree-message span {
+    margin-left: 5px;
+}
+
+.agree-message > input[type="checkbox"] {
+    display: none;
+}
+
+.icon-checkbox-checked {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .icon-checkbox-checked {
+    display: inline;
+}
+
+input[type="checkbox"]:checked + .icon-checkbox-unchecked {
+    display: none;
+}
+
+.hr {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.submit-button {
+    position: absolute;
+    bottom: -69px;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    left: 0;
+    background: #000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dark-shim {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition-duration: .3s;
+}
+
+.popup {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-duration: .3s;
+}
+
+.popup.show {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: .3s;
+}
+
+.dark-shim.show {
+    visibility: visible;
+    opacity: 0.5;
+    transition-duration: .3s;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* Tamaya */
+.button--tamaya {
+    overflow: hidden;
+    color: #fff;
+    min-width: 180px;
+}
+.button--tamaya.button--inverted {
+    color: #fff;
+    border-color: #37474f;
+}
+.button--tamaya::before,
+.button--tamaya::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--tamaya.button--inverted::before,
+.button--tamaya.button--inverted::after {
+    background: #fff;
+    color: #fff;
+}
+.button--tamaya::before {
+    top: 0;
+    /*padding-top: 1em;*/
+}
+.button--tamaya::after {
+    bottom: 0;
+    line-height: 0;
+}
+.button--tamaya > span {
+    display: block;
+    -webkit-transform: scale3d(0.2, 0.2, 1);
+    transform: scale3d(0.2, 0.2, 1);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--tamaya:hover::before {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+.button--tamaya:hover::after {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+.button--tamaya:hover > span {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+
+@media (max-width: 700px) {
+    .reg-form, .login-form {
+        width: 80%;
+    }
+}
+@media (max-width: 400px) {
+    .reg-form, .login-form {
+        width: auto;
+        min-width: 200px;
+    }
+    .buttons{
+        width: 179px;
+    }
+    .buttons .button-reg{
+        float: none;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 360px) {
+    footer{
+        display: none;
+    }
+}

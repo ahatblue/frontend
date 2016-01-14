@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Basic template</title>
+
+    <!-- libs css -->
+    <link rel="stylesheet" href="libs/css/normalize.css">
+    <link rel="stylesheet" href="libs/css/ion.checkRadio.css">
+    <link rel="stylesheet" href="libs/css/ion.tabs.css">
+    <link rel="stylesheet" href="libs/css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="libs/css/bootstrap.css" >
+    <link rel="stylesheet" href="libs/css/jquery.scrollbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/concat-01.css">
+
+
+</head>
+<body>
+
+
+<div class="cabinet_all_wrap">
+
+    <!-- top line -->
+    <div class="cabinet_top_line">
+        <div class="cabiten_top_line_ul">
+            <span class="top_line_logo"><img src="images/logo_bitbeex.svg" alt="Beetbix">Beetbix</span>
+            <ul>
+                <li>
+                    <select name="top_line_fenix" id="top_line_fenix">
+                        <option value="bitfenix">BITFENIX</option>
+                        <option value="bitfenix">DINFENIX</option>
+                        <option value="bitfenix">TEXTENIT</option>
+                        <option value="bitfenix">MESTENN</option>
+                    </select>                    
+                </li>
+                <li>BTC\USD <span class="green">400.777</span></li>
+                <li>LTC\USD <span class="red">9.777777</span></li>
+                <li>BTC\LTC <span class="green">0.777777</span></li>
+            </ul>
+            <div class="top_line_logged">
+                <span class="top_line_logged_name"><a href="cabinet.html">JACKWOROBEY(profile)</a></span>
+                <span class="top_line_logged_exit">EXIT</span>
+            </div>
+        </div>
+    </div><!-- # top line -->
+
+
+    <!-- TOP LINE SECOND MENU -->
+    <div class="cabinet_top_line_menu">
+        <ul>
+            <li><a href="buy-bitcoin.html">Exchenger</a></li>
+            <li><a href="trading_page.html">trading</a></li>
+            <li><a href="new-wallet-account.html">wallet</a></li>
+            <li><a href="mining.html">Mining</a></li>
+        </ul>
+        <span class="menu_button"><span class="text">menu</span></span>
+
+    </div><!-- # TOP LINE SECOND MENU -->
+
+    <!-- right menu -->
+    <div class="right_menu right_menu_close">
+        <div class="right_menu_close_bg"></div>
+        <title>Tool's</title>
+        <ul>
+            <li>
+                <div class="right_menu_button"></div>
+            </li>
+            <li>
+                <div class="right_menu_button">O</div>
+            </li>
+            <li>
+                <div class="right_menu_button">B</div>
+            </li>
+            <li>
+                <div class="right_menu_button">S</div>
+            </li>
+            <li>
+                <div class="right_menu_button">W</div>
+            </li>
+            <li>
+                <div class="right_menu_button">FAQ</div>
+            </li>
+        </ul>
+    </div><!-- # right menu -->
+    <div class="right_menu_close_btn">
+        <span><i class="fa fa-play"></i></span>
+    </div><!-- # right menu close btn -->
+
+
+    <div class="cabinet container">
+        <div class="account_settings_title">
+            <h1>ACCOUNT SETTING</h1>
+            <i class="fa fa-cog"></i>
+        </div>
+
+        <!--   TABS    -->
+        <div class="ionTabs" id="tabs_1" data-name="Tabs_Group_name">
+            <ul class="ionTabs__head">
+                <li class="ionTabs__tab" data-target="Tab_1_name">PROFILE</li>
+                <li class="ionTabs__tab" data-target="Tab_2_name">SECURITY</li>
+                <li class="ionTabs__tab" data-target="Tab_3_name">NOTIFICATION</li>
+                <li class="ionTabs__tab" data-target="Tab_4_name">FINANCE</li>
+                <li class="ionTabs__tab" data-target="Tab_5_name">HISTORY OF TRANSACTIONS</li>
+                <li class="ionTabs__tab" data-target="Tab_6_name">HISTORY OF ORDERS</li>
+                <li class="ionTabs__tab" data-target="Tab_7_name">CARDS</li>
+                <li class="ionTabs__tab" data-target="Tab_8_name">SUPPORT</li>
+                <li class="ionTabs__tab" data-target="Tab_9_name">SETTINGS</li>
+            </ul>
+            <div class="ionTabs__body">
+                <div class="ionTabs__item" data-name="Tab_1_name">
+                    <div class="profile_tab">
+                        <div class="container-profile">
+                            <div class="row">
+                                <div class="col-md-7">
+
+                                    <div class="profile_form">
+                                        <h1>Edit profile information:</h1>
+
+                                        <form id="cabinet_profile_form">
+
+                                            <div class="form_group">
+                                                <label>First name:</label>
+                                                <input type="text" name="first_name" placeholder="first_name">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>Last name:</label>
+                                                <input type="text" name="last_name" placeholder="last_name">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>Your country:</label>
+                                                <select name="profile_form_country" id="profile_form_country"
+                                                        placeholder="your country">
+                                                    <option value="select">Select...</option>
+                                                    <option value="usa">Ukraine</option>
+                                                    <option value="russia">Russia</option>
+                                                    <option value="china">China</option>
+                                                    <option value="turkish">Turkish</option>
+                                                    <option value="spain">Spain</option>
+                                                    <option value="italy">Italy</option>
+                                                    <option value="germany">Germany</option>
+                                                    <option value="france">France</option>
+                                                    <option value="england">England</option>
+                                                </select>
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>City:</label>
+                                                <input type="text" name="city" placeholder="City">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>Email:</label>
+                                                <input type="text" name="email" placeholder="Email">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>Telephone:</label>
+                                                <input type="text" name="telephone" placeholder="Telephone">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <button type="submit">SAVE</button>
+                                        </form>
+
+                                        <h1>Change your password:</h1>
+
+
+                                        <form id="cabinet_profile_form_password">
+
+                                            <div class="form_group">
+                                                <label>Current password:</label>
+                                                <input type="text" name="current_password"
+                                                       placeholder="Current password">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>New password:</label>
+                                                <input type="text" id="change_password" name="new_password"
+                                                       placeholder="New password">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <div class="form_group">
+                                                <label>Confirm password:</label>
+                                                <input type="text" id="change_password_again" name="confirm_password"
+                                                       placeholder="Confirm password">
+                                                <label class="valid_field"><i class="fa fa-check"></i></label>
+                                            </div>
+
+                                            <button type="submit" id="cabinet_change_password_form_btn">SAVE PASSWORD
+                                            </button>
+                                        </form>
+
+                                    </div>
+                                    <!-- # PROFILE FORM -->
+                                </div>
+                                <!-- # COL-MD-6 -->
+
+                                <div class="col-md-5">
+                                    <div class="profile_statistic">
+                                        <h1>Your profile list</h1>
+
+                                        <div class="your_profile_list">
+                                            <div class="your_profile_list_personal">
+                                                <span>FIRST NAME:</span>
+                                                <span>LAST NAME:</span>
+                                                <span>ADRESS:</span>
+                                                <span>EMAIL:</span>
+                                                <span>TELEPHONE:</span>
+                                            </div>
+                                            <div class="your_profile_balance">
+                                                <div class="your_profile_balance_wrap">
+                                                    <span>Balance USD:</span>
+                                                    <span>Balance BTC:</span>
+                                                    <span>Balance LTC:</span>
+                                                    <span>Balance USD:</span>
+                                                    <span>Balance BTC:</span>
+                                                    <span>Balance LTC:</span>
+                                                </div>
+                                                <span class="your_profile_other_currencies">other currencies</span>
+                                            </div>
+                                            <div class="your_profile_total_profit">
+                                                <h2>Your total profit</h2>
+                                                <span>USD:</span>
+                                                <span>BTC:</span>
+                                                <span>LTC:</span>
+                                            </div>
+                                            <div class="your_profile_end">
+                                                <span>Additional Information Additional</span>
+                                                <span>Additional Information Additional</span>
+                                                <span>Additional Information Additional</span>
+                                            </div>
+                                        </div>
+                                        <div class="send-list-button-wrapper">
+                                            <button id="profile_stat_send_btn">SEND THIS LIST TO MY EMAIL</button>
+                                            <button id="profile_stat_clock_btn"><i class="fa fa-clock-o"></i></button>
+                                        </div>
+
+                                    </div>
+                                    <!-- # PROFILE STATISTIC -->
+                                </div>
+                                <!-- # COL-MD-6 -->
+                            </div>
+                            <!-- # ROW -->
+                        </div>
+                        <!-- # CONTAINER -->
+
+
+                    </div>
+                    <!-- # PROFILE_TAB -->
+                </div>
+                <div class="ionTabs__item" data-name="Tab_2_name">
+
+                    <!--<div class="support-tab__block-header h1-header">-->
+                        <!--SECURITY:-->
+                    <!--</div>-->
+                    <div class="security-tab__ticket-message">
+                        <div class="header">
+                            PLEASE CHOOSE HOW YOU WISH TO RECEIVE 2FA CODE: <span>Step 1</span>
+                        </div>
+
+                        <div class="security-tabs-wrapper">
+                            <div class="security-tab__block left">
+                                <div class="frame">
+                                    <h1>With «Google Authenticator»,</br>
+                                        smartphone app
+                                    </h1>
+
+                                    <p>
+                                        The app "Google Authenticator" in your phone
+                                        generates two-step authentication codes.
+                                        Two-stage authentication provides an additional level
+                                        of protection from hacking accounts. When using this
+                                        feature for your account you must enter not only the
+                                        password, but the code generated by the application.
+                                    </p>
+                                    <img src="images/security_ometr.png" alt="">
+                                </div>
+                                <div class="top-line"></div>
+                                <div class="middle-line">Or</div>
+                                <div class="bottom-line"></div>
+                                <div class="frame bottom">
+                                    <h1>SMS/Phone request
+                                    </h1>
+
+                                    <p>
+                                        Send 2FA code via SMS or phone call.
+                                    </p>
+                                    <img src="images/security_phone.png" alt="">
+                                </div>
+                            </div>
+
+
+                            <div class="security-tab__block right">
+                                <div class="frame">
+                                    <h1>
+                                        Keep 2FA disabled
+                                    </h1>
+
+                                    <p>
+                                        Your account will be insecure and can be easily hacked.
+                                        All your actions on BitBeex.com will be confirmed only via email.
+                                    </p>
+
+                                    <div class="warning">
+                                        NOT RECOMMENDED !
+                                    </div>
+                                    <img src="images/security_img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="security-info">
+                            Two-Factor Authentication makes your account strongly secure. If you lose your mobile device
+                            with enable 2FA, contact our support team via <a href="#">support@bitbeex.com</a> to solve
+                            your problem.
+                        </div>
+
+
+                    </div>
+                    <div class="clear"></div>
+
+                    <!--<div class="support-tab__block-header h1-header">-->
+                        <!--SECURITY:-->
+                    <!--</div>-->
+                    <div class="security-tab__ticket-message">
+                        <div class="header">
+                            PHONE NUMBER VERIFICATION<span>Step 2</span>
+                        </div>
+
+                        <div class="phone-verification-tabs-wrapper">
+                            <div class="phone-verification__block">
+                                <div class="phone-verification__frame">
+                                    <div class="phone-verification__image">
+                                        <img src="images/security_unlock-phone.png" alt="">
+                                    </div>
+                                    <div class="phone-verification__info">
+                                        <div>
+                                            <img src="images/security_phonchik.png">
+                                            Please select the country code and enter yourphone number.</br>
+                                            We will send you a 2FA code to verify your phone number.
+                                        </div>
+                                    </div>
+                                    <div class="phone-verification__contacts-block">
+                                        <div class="choose-country">
+                                            <span>Choose a country:</span>
+                                            <select type="text">
+                                                <option value="">Ukraine</option>
+                                                <option value="">ne Ukraine</option>
+                                                <option value="">tuda suda</option>
+                                                <option value="">normalno budet</option>
+                                            </select>
+                                        </div>
+                                        <div class="choose-number">
+                                            <span>You phone number:</span>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-verification__butons">
+                        <button class="button-back">BACK</button>
+                        <button class="button-next">NEXT</button>
+                    </div>
+                    <div class="phone-verification-info">
+                        Two-Factor Authentication makes your account strongly secure. If you lose your mobile device
+                        with enable 2FA, contact our support team via <a href="#">support@bitbeex.com</a> to solve
+                        your problem.
+                    </div>
+
+
+                    <!--<div class="support-tab__block-header h1-header">-->
+                        <!--SMS/PHONE REQUEST:-->
+                    <!--</div>-->
+                    <div class="security-tab__ticket-message">
+                        <div class="header">
+                            PHONE NUMBER VERIFICATION<span>Step 3</span>
+                        </div>
+
+                        <div class="phone-verification-tabs-wrapper">
+                            <div class="phone-verification__block">
+                                <div class="phone-verification__frame">
+                                    <div class="inner-wrapper">
+                                        <span>
+                                            Please select howyou wish to receive 2FA code:
+                                        </span>
+
+                                        <div class="number-copy">
+                                            +380 955557777
+                                        </div>
+                                        <div class="sms">
+                                            <img src="images/security_post.png" alt="">
+                                            <button class="button">SMS</button>
+                                        </div>
+                                        <div class="phone-call">
+                                            <img src="images/security_p.png" alt="">
+                                            <button class="button">PHONE CALL</button>
+                                        </div>
+                                        <span>
+                                            ENTER 2FA CODE:
+                                        </span>
+                                        <input type="text">
+                                    </div>
+
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-verification__butons">
+                        <button class="button-back">BACK</button>
+                        <button class="button-next">NEXT</button>
+                    </div>
+                    <div class="phone-verification-info">
+                        Two-Factor Authentication makes your account strongly secure. If you lose your mobile device
+                        with enable 2FA, contact our support team via <a href="#">support@bitbeex.com</a> to solve
+                        your problem.
+                    </div>
+
+
+
+                    <!--<div class="support-tab__block-header h1-header">-->
+                        <!--SMS/PHONE REQUEST:-->
+                    <!--</div>-->
+                    <div class="security-tab__ticket-message">
+                        <div class="header">
+                            PHONE NUMBER VERIFICATION<span>Step 4</span>
+                        </div>
+
+                        <div class="phone-verification-tabs-wrapper">
+                            <div class="phone-verification__block">
+                                <div class="phone-verification__frame">
+                                    <div class="next-inner-wrapper">
+                                        <img src="images/security_next.png" alt="">
+                                        <h1>READY!</h1>
+                                        <span>
+                                            You have successfully enabled two-factor authentication on your account.
+                                        </span>
+                                        <div class="last-message">
+                                            YOUR ACCOUNT IS NOW SECURE!
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-verification__butons">
+                        <button class="button-start">START USING BETBEEX.COM</button>
+                    </div>
+                    <div class="phone-verification-info">
+                        Two-Factor Authentication makes your account strongly secure. If you lose your mobile device
+                        with enable 2FA, contact our support team via <a href="#">support@bitbeex.com</a> to solve
+                        your problem.
+                    </div>
+                </div>
+
+
+                <div class="ionTabs__item" data-name="Tab_3_name">
+                    Контент вкладки 3 <span class="red">NOTIFICATION</span>
+                </div>
+                <div class="ionTabs__item finance-tab" data-name="Tab_4_name">
+
+                    <div class="finance-tab__block-header h1-header">
+                        ENTER YOU BTC CODE:
+                    </div>
+                    <div class="finance-tab__code-activate">
+                        <span>Place code in container:</span>
+
+                        <div class="code-input">
+                            <input type="text">
+                        </div>
+                        <button class="activate-code-button red-button">
+                            ACTIVATED BTC CODE
+                        </button>
+                    </div>
+                    <div class="finance-tab__block-header h1-header">
+                        BALANCE YOUR CURRENCY:
+                    </div>
+                    <table class="finance-tab__table">
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="table-name">BALANCE</td>
+                            <td class="table-name">IN ORDERS</td>
+                            <td class="table-name">ALL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-icon">$:</td>
+                            <td class="table-price"></td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-icon">€:</td>
+                            <td class="table-price green-text"></td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-icon">£:</td>
+                            <td class="table-price green-text"></td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <hr class="hr-black">
+
+                    <div class="finance-tab__block-header h1-header">
+                        CRYPTOCURRENCY BALANCE:
+                    </div>
+                    <table class="finance-tab__table">
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td class="table-name">BALANCE</td>
+                            <td class="table-name">IN ORDERS</td>
+                            <td class="table-name">REF</td>
+                            <td class="table-name">ALL</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">BTC:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">LTC:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">NMC:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">NVC:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">DRK:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">DOGE:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">FTC:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">AUR:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-finance-pair">PPC:</td>
+                            <td class="table-price green-text">0.000</td>
+                            <td class="table-price blue-text">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-price">0.000</td>
+                            <td class="table-button">
+                                <button class="in-table-button grey-button">
+                                    DEPOSIT
+                                </button>
+                            </td>
+                            <td class="table-button">
+                                <button class="in-table-button black-button">
+                                    WITHDRAW
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <hr class="hr-black">
+
+
+                </div>
+                <div class="ionTabs__item" data-name="Tab_5_name">
+                    <div class="hist_trans_wrap">
+                        <div class="container__hist_trans">
+                            <h1><span class="red">HISTORY OF TRANSACTION:</span></h1>
+
+                            <div class="hist_ord_settings">
+                                <ul>
+                                    <li><span>EXPORT</span><i class="fa fa-envelope" title="send to your mail"></i></li>
+                                    <li><span>ANY-TIME:</span>
+                                        <select name="hist_transactions_time" id="hist_transactions_time">
+                                            <option value="all">ALL</option>
+                                            <option value="past_15_min">PAST 15 MIN</option>
+                                            <option value="past_30_min">PAST 30 MIN</option>
+                                            <option value="past_1_hour">PAST 1 HOUR</option>
+                                            <option value="past_6_hours">PAST 6 HOURS</option>
+                                            <option value="past_24_hours">PAST 24 HOURS</option>
+                                            <option value="past_week">PAST WEEK</option>
+                                            <option value="past_month">PAST MONTH</option>
+                                        </select>
+                                    </li>
+                                    <li><span>ANY-TYPE:</span>
+                                        <select name="hist_transactions_type" id="hist_transactions_type">
+                                            <option value="all">ALL</option>
+                                            <option value="sell">SELL</option>
+                                            <option value="deposit">DEPOSIT</option>
+                                            <option value="withdrawal">WITHDRAWAL</option>
+                                            <option value="btb-codes">BTB-CODES</option>
+                                            <option value="bonuses">BONUSES</option>
+                                        </select>
+                                    </li>
+                                    <li><span>DATE AND TIME:</span>
+                                        <select name="hist_ord_setting_time" id="hist_ord_setting_time">
+                                            <option value="type">TYPE</option>
+                                            <option value="btc-anount">BTC AMOUNT</option>
+                                            <option value="usd-amount">USD AMOUNT</option>
+                                            <option value="gbr-amount">GBR AMOUNT</option>
+                                            <option value="btc-price">BTC PRICE</option>
+                                            <option value="ascending">ASCENDING</option>
+                                            <option value="descending">DESCENDING</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div><!-- # hist_ord_settings -->
+
+                            <table class="hist_ord_table">
+                                <thead>
+                                <tr>
+                                    <td>TYPE</td>
+                                    <td>DATE AND TIME</td>
+                                    <td>BTC AMOUNT</td>
+                                    <td>USD AMOUNT</td>
+                                    <td>BTC PRICE</td>
+                                    <td>FEE</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="blue_text">TYPE</span></td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.000</td>
+                                    <td>0.02 %</td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="ionTabs__item" data-name="Tab_6_name">
+                    <div class="hist_ord_wrap">
+                        <div class="container__hist_ord">
+                            <h1><span class="red">HISTORY OF ORDERS:</span></h1>
+
+                            <div class="hist_ord_settings">
+                                <ul>
+                                    <li><span>EXPORT</span><i class="fa fa-envelope"></i></li>
+                                    <li><span>PAIR:</span>
+                                        <select name="hist_ord_setting_pair" id="hist_ord_setting_pair">
+                                            <option value="">ALL</option>
+                                            <option value="btc-usd">BTC\USD</option>
+                                            <option value="btc-eur">BTC\EUR</option>
+                                            <option value="btc-gbr">BTC\GBR</option>
+                                            <option value="ltc-btc">LTC\BTC</option>
+                                            <option value="ltc-usd">LTC\USD</option>
+                                            <option value="ltc-eur">LTC\EUR</option>
+                                            <option value="ltc-gbr">LTC\GBR</option>
+                                            <option value="nmc-btc">NMC\BTC</option>
+                                            <option value="nmc-usd">NMC\USD</option>
+                                            <option value="nmc-eur">NMC\EUR</option>
+                                            <option value="nmc-gbr">NMC\GBR</option>
+                                            <option value="nvc-btc">NVC\BTC</option>
+                                            <option value="nvc-usd">NVC\USD</option>
+                                            <option value="nvc-eur">NVC\EUR</option>
+                                            <option value="nvc-gbr">NVC\GBR</option>
+                                            <option value="ppc-btc">PPC\BTC</option>
+                                            <option value="ppc-usd">PPC\USD</option>
+                                            <option value="ppc-gbr">PPC\GBR</option>
+                                        </select>
+                                    </li>
+                                    <li><span>TYPE:</span>
+                                        <select name="hist_ord_setting_type" id="hist_ord_setting_type">
+                                            <option value="buy">BUY</option>
+                                            <option value="sell">SELL</option>
+                                        </select>
+                                    </li>
+                                    <li><span>SHOW:</span>
+                                        <select name="hist_ord_setting_show" id="hist_ord_setting_show">
+                                            <option value="all">ALL</option>
+                                            <option value="active">ACTIVE</option>
+                                            <option value="performed">PERFORMED</option>
+                                            <option value="partial_execution">PARTIAL EXECUTION</option>
+                                            <option value="canceled">CANCELED</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div><!-- # hist_ord_settings -->
+
+                            <table class="hist_ord_table">
+                                <thead>
+                                <tr>
+                                    <td>PAIR</td>
+                                    <td>TYPE</td>
+                                    <td>PRICE</td>
+                                    <td>AMOUNT</td>
+                                    <td>USD AMOUNT</td>
+                                    <td>DATE AND TIME</td>
+                                    <td>STATUS</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC\USD</td>
+                                    <td><span class="red">SELL</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>PARTIAL EXECUTION</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td><span class="green_text">BUY</span></td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>0.0000</td>
+                                    <td>21.12.2015 21:33</td>
+                                    <td>CANCELED</td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="ionTabs__item" data-name="Tab_7_name">
+                    Контент вкладки 7 <span class="red">CARDS</span>
+                </div>
+                <div class="ionTabs__item" data-name="Tab_8_name">
+
+                    <div class="support-tab__block-header h1-header">
+                        SUPPORT:
+                    </div>
+                    <div class="support-tab__choose-category">
+                        <select type="text">
+                            <option value="" disabled required="">Select category...</option>
+                            <option value="">Select category...</option>
+                            <option value="">Select category...</option>
+                            <option value="">Select category...</option>
+                            <option value="">Select category...</option>
+                            <option value="">Select category...</option>
+                        </select>
+                    </div>
+                    <div class="support-tab__ticket-message">
+                        <div class="header">
+                            TICKET MESSAGE
+                        </div>
+                        <textarea name="" id=""></textarea>
+
+                        <div class="message">
+                            You can simply drag and drop any files you wish to upload into this browser window
+                        </div>
+                        <div class="attachment-files">
+                            <span>bitcoin-combolock.jpg</span>
+                            <span>bitcoin-combolock.jpg</span>
+                        </div>
+                        <div class="support-tab__buttons">
+                            <button class="red-button button button-send">SEND MESSAGE</button>
+                            <button class="red-button button button-add">ADD FILE</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="your-message-block">
+                        <div class="your-message-block__info">
+                            <div class="your-message-block__info__header">
+                                You message:
+                            </div>
+
+                            <div class="m-info">
+                                <div class="inbox">INBOX:
+                                    <span>(13)</span>
+                                    <span class="black-color">666</span>
+                                </div>
+                                <div class="outbox">OUTBOX:
+                                    <span></span>
+                                    <span class="black-color">999</span>
+                                </div>
+
+                                <div class="market">Marked</div>
+                                <div class="important"> Important</div>
+                                <div class="sort">
+                                    <span class="sort">Sort by: <i class="icon-circle-down"></i></span>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="write-message-block">
+                            <div class="write-message-block__header">
+                                <label class="check-all">
+                                    <input type="checkbox">
+                                    <i class="icon-checkbox-unchecked"></i>
+                                    <i class="icon-checkbox-checked"></i>
+                                </label>
+                                <label class="check-star">
+                                    <input type="checkbox">
+                                    <i class="icon-star-empty"></i>
+                                    <i class="icon-star-full"></i>
+                                </label>
+
+                                <div class="remove">
+                                    <i class="icon-bin2"></i>
+                                </div>
+                                <div class="more" style="
+    overflow: hidden;">more
+                                    <i class="icon-circle-down"></i>
+
+                                    <div class="more-inner-block">
+                                        <span>
+                                            Check As
+                                        </span>
+                                        <ul>
+                                            <li>Reading</li>
+                                            <li>Not reading</li>
+                                            <li>Important</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="write-message-block__body">
+                                <div class=" inner-block scrollbar-inner">
+                                    <div class="message-line" data-status="important">
+                                        <div class="icons">
+                                            <label class="check-all">
+                                                <input type="checkbox" class="check">
+                                                <i class="icon-checkbox-unchecked"></i>
+                                                <i class="icon-checkbox-checked"></i>
+                                            </label>
+                                            <label class="check-star">
+                                                <input type="checkbox" class="star">
+                                                <i class="icon-star-empty"></i>
+                                                <i class="icon-star-full"></i>
+                                            </label>
+
+                                            <div class="message-line__info">
+                                                <i class="icon-info"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="title">
+                                            <span>support_team - blablabla bitcoin the best</span>
+                                        </div>
+                                    </div>
+                                    <div class="message-line">
+                                        <div class="icons">
+                                            <label class="check-all">
+                                                <input type="checkbox" class="check">
+                                                <i class="icon-checkbox-unchecked"></i>
+                                                <i class="icon-checkbox-checked"></i>
+                                            </label>
+                                            <label class="check-star">
+                                                <input type="checkbox" class="star">
+                                                <i class="icon-star-empty"></i>
+                                                <i class="icon-star-full"></i>
+                                            </label>
+
+                                            <div class="message-line__info">
+                                                <i class="icon-info"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="title">
+                                            <span>support_team - blablabla bitcoin the best</span>
+                                        </div>
+                                    </div>
+                                    <div class="message-line">
+                                        <div class="icons">
+                                            <label class="check-all">
+                                                <input type="checkbox" class="check">
+                                                <i class="icon-checkbox-unchecked"></i>
+                                                <i class="icon-checkbox-checked"></i>
+                                            </label>
+                                            <label class="check-star">
+                                                <input type="checkbox" class="star">
+                                                <i class="icon-star-empty"></i>
+                                                <i class="icon-star-full"></i>
+                                            </label>
+
+                                            <div class="message-line__info">
+                                                <i class="icon-info"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="title">
+                                            <span>support_team - blablabla bitcoin the best</span>
+                                        </div>
+                                    </div>
+                                    <div class="message-line">
+                                        <div class="icons">
+                                            <label class="check-all">
+                                                <input type="checkbox" class="check">
+                                                <i class="icon-checkbox-unchecked"></i>
+                                                <i class="icon-checkbox-checked"></i>
+                                            </label>
+                                            <label class="check-star">
+                                                <input type="checkbox" class="star">
+                                                <i class="icon-star-empty"></i>
+                                                <i class="icon-star-full"></i>
+                                            </label>
+
+                                            <div class="message-line__info">
+                                                <i class="icon-info"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="title">
+                                            <span>support_team - blablabla bitcoin the best</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-message-block">
+                            <div class="full-message scrollbar-inner">
+                                <div class="full-message__header">
+                                    <label class="check-star">
+                                        <input type="checkbox">
+                                        <i class="icon-star-empty"></i>
+                                        <i class="icon-star-full"></i>
+                                    </label>
+                                    <span class="full-message-name">Support team:</span>
+                                </div>
+                                <div class="full-message__body">
+                                    Reports by Wired and Fortune indicate that IBM was the leader
+                                    in creating what will be called the Open Ledger Project, an
+                                    alternative blockchain system to be overseen by the Linux
+                                    Foundation, the nonprofit consortium that runs the open-source
+                                    operating system.Reports by Wired and Fortune indicate that IBM was the
+                                    leader
+                                    in creating what will be called the Open Ledger Project, an
+                                    alternative blockchain system to be overseen by the Linux
+                                    Foundation, the nonprofit consortium that runs the open-source
+                                    operating system.Reports by Wired and Fortune indicate that IBM was the
+                                    leader
+                                    in creating what will be called the Open Ledger Project, an
+                                    alternative blockchain system to be overseen by the Linux
+                                    Foundation, the nonprofit consortium that runs the open-source
+                                    operating system.Reports by Wired and Fortune indicate that IBM was the
+                                    leader
+                                    in creating what will be called the Open Ledger Project, an
+                                    alternative blockchain system to be overseen by the Linux
+                                    Foundation, the nonprofit consortium that runs the open-source
+                                    operating system.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="ionTabs__item" data-name="Tab_9_name">
+                    Контент вкладки 9 <span class="red">SETTINGS</span>
+                </div>
+
+
+                <div class="ionTabs__preloader"></div>
+            </div>
+        </div>
+        <!--  # TABS    -->
+
+    </div>
+    <!--  # CABINET    -->
+</div>
+
+
+<footer> copyright Bitbeex & Privacy</footer>
+
+
+<script src="libs/js/jquery-2.1.4.min.js"></script>
+<script src="libs/js/jquery.scrollbar.js"></script>
+<script src="libs/js/ion.checkRadio.js"></script>
+<script src="libs/js/ion.tabs.js"></script>
+<script src="libs/js/jquery.validate.js"></script>
+<script src="libs/js/jquery-imagefill.js"></script>
+<script src="libs/js/ion.checkRadio.js"></script>
+<script src="js/my_scripts.js"></script>
+<script src="js/support.js"></script>
+<script src="js/security.js"></script>
+<script src="js/phone-verification.js"></script>
+
+</body>
+</html>

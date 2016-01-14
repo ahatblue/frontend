@@ -1,0 +1,125 @@
+
+/***************************************************************************************/
+/***************************************************************************************/
+/***********************           FINANCE PAGE         ********************************/
+/***************************************************************************************/
+/***************************************************************************************/
+input{
+    outline: none;
+    color: #555;
+}
+
+.h1-header{
+    text-align: left;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #AF0000;
+}
+.finance-tab__code-activate{
+    height: 36px;
+    position: relative;
+    margin-top: 20px;
+}
+.finance-tab__code-activate span{
+    font-weight: bold;
+    line-height: 36px;
+}
+.finance-tab__code-activate .code-input{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 224px 0 196px;
+}
+.finance-tab__code-activate input{
+    padding: 7px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.finance-tab__code-activate .activate-code-button{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    height: 36px;
+    padding: 0 30px;
+    float: right;
+    outline: none;
+}
+.in-table-button{
+    height: 25px;
+    width: 130px;
+    margin-left: 10px;
+    padding: 0 30px;
+    outline: none;
+}
+.red-button{
+    background: #AF0000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.grey-button{
+    background: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.black-button{
+    background: #000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.finance-tab__table{
+    width: 100%;
+    text-align: center;
+}
+.green-text{
+    color: #08B100;
+}
+.blue-text{
+    color: #006cff;
+}
+
+.finance-tab__table td{
+    height: 35px;
+}
+td.table-name{
+    font-size: 12px;
+    height: 36px;
+}
+
+td.table-button{
+    width: 130px;
+}
+td.table-finance-icon{
+    width: 6%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+td.table-finance-pair{
+    width: 6%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+td.table-price{
+    width: 22%;
+    font-weight: bold;
+}
+
+.hr-black{
+    border-top: 1px solid #000;
+    margin: 30px 0;
+}
+
+/***************************************************************************************/
+/***************************************************************************************/
+/***********************           FINANCE PAGE         ********************************/
+/***************************************************************************************/
+/***************************************************************************************/

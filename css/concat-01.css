@@ -1,0 +1,2191 @@
+/*
+    buy-bitcoin.css *
+    finance.css *
+    font.css *
+    index.css *
+    ion.checkRadio.green.css *
+    ion.tabs.skinBordered.css *
+    media.css *
+    new-wallet-account.css *
+    phone-verification.css *
+    security.css *
+    support.css *
+    ion.rangeSlider.skinFlat.css *
+*/
+/***************************************************************************************/
+/***************************************************************************************/
+/***********************           FINANCE PAGE         ********************************/
+/***************************************************************************************/
+/***************************************************************************************/
+input{
+    outline: none;
+    color: #555;
+}
+
+.h1-header{
+    text-align: left;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #AF0000;
+}
+.finance-tab__code-activate{
+    height: 36px;
+    position: relative;
+    margin-top: 20px;
+}
+.finance-tab__code-activate span{
+    font-weight: bold;
+    line-height: 36px;
+}
+.finance-tab__code-activate .code-input{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 224px 0 196px;
+}
+.finance-tab__code-activate input{
+    padding: 7px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.finance-tab__code-activate .activate-code-button{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    height: 36px;
+    padding: 0 30px;
+    float: right;
+    outline: none;
+}
+.in-table-button{
+    height: 25px;
+    width: 130px;
+    margin-left: 10px;
+    padding: 0 30px;
+    outline: none;
+}
+.red-button{
+    background: #AF0000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.grey-button{
+    background: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.black-button{
+    background: #000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.finance-tab__table{
+    width: 100%;
+    text-align: center;
+}
+.green-text{
+    color: #08B100;
+}
+.blue-text{
+    color: #006cff;
+}
+
+.finance-tab__table td{
+    height: 35px;
+}
+td.table-name{
+    font-size: 12px;
+    height: 36px;
+}
+
+td.table-button{
+    width: 130px;
+}
+td.table-finance-icon{
+    width: 6%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+td.table-finance-pair{
+    width: 6%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+td.table-price{
+    width: 22%;
+    font-weight: bold;
+}
+
+.hr-black{
+    border-top: 1px solid #000;
+    margin: 30px 0;
+}
+
+/***************************************************************************************/
+/***************************************************************************************/
+/*******************           BUY-BITCOIN PAGE         ********************************/
+/***************************************************************************************/
+/***************************************************************************************/
+button{
+    outline: none;
+}
+.ionTabs__body {
+    border-top: 0;
+}
+
+.buy-page {
+    margin: 0 0 30px;
+    padding: 28px 0;
+    width: 100%;
+}
+
+.buy-page h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.buy-page__blocks {
+    width: 80%;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+}
+
+.buy-page__block {
+    width: 23.99%;
+    float: left;
+    margin-right: 1.334%;
+    padding: 2px;
+}
+
+.buy-page__block:hover {
+    background: #252525;
+}
+
+.buy-page__block:hover .buy-page__block__body__price {
+    color: #fff;
+}
+
+.blocks-wrapper {
+    overflow: hidden;
+}
+
+.blocks-wrapper > div:last-of-type {
+    margin-right: 0;
+}
+
+.buy-page__block__header {
+    width: 100%;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+}
+
+.buy-page__block__body {
+    background: rgba(152, 152, 152, 0.7);
+    margin: 5px 0;
+    padding: 20px;
+}
+
+.buy-page__block__body__price {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.buy-page__block__body__price span {
+    font-size: 16px;
+    position: relative;
+    top: -12px;
+}
+
+.progress-line {
+    position: relative;
+    height: 2px;
+    margin-bottom: 10px;
+    background-image: -webkit-linear-gradient(0, rgb(26, 255, 0) 0%, rgb(255, 166, 0) 49%, rgb(255, 0, 0) 100%, rgba(207, 255, 186, 0) 100%);
+
+}
+
+.progress-line__inner {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    transition: all 1s ease;
+}
+
+.buy-page__block__body__message {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buy-page__block__button {
+    width: 100%;
+    height: 34px;
+}
+
+.buy-page__button {
+    width: 100%;
+    height: 100%;
+    color: #12ff00;
+    border: none;
+    background: #363636;
+    font-weight: bold;
+}
+
+.timer-block {
+    width: 99.5%;
+    margin: 10px auto;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    clear: both;
+}
+
+.timer-block .timer {
+    color: red;
+    cursor: pointer;
+}
+.timer-block .timer:hover {
+    text-decoration: underline;
+}
+
+.timer-block .link {
+    color: #0083fe;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.timer-block .link:hover {
+    text-decoration: none;
+}
+
+.quick-lunch-block {
+    width: 80%;
+    margin: 180px auto;
+    overflow: hidden;
+}
+
+.quick-lunch-block__left {
+    float: left;
+    width: 49%;
+}
+
+.quick-lunch-block__right {
+    float: right;
+    width: 49%;
+}
+
+.quick-button {
+    width: 100%;
+    background: #000;
+    border: none;
+    color: #fff;
+    line-height: 34px;
+}
+
+.quick-button.left span {
+    color: #12ff00;
+}
+
+.quick-button.right span {
+    color: red;
+}
+
+.message {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+}
+.buy-sell-btns{
+    overflow: hidden;
+    width: 280px;
+    margin: auto;
+}
+.bitcalc-form{
+    text-align: center;
+}
+.bit-count-wrapper{
+    display: inline-block;
+}
+.money-count-wrapper{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bit-icon{
+    float: left;
+    width: 20px;
+    height: 22px;
+    line-height: 22px;
+    background: #777;
+    color: #000;
+    font-weight: bold;
+}
+.dollar-icon{
+    float: right;
+    width: 20px;
+    height: 22px;
+    line-height: 22px;
+    background: #777;
+    color: #000;
+    font-weight: bold;
+}
+.buy-sell-btns button{
+    display: block;
+    width: 140px;
+    height: 49px;
+    border: none;
+    background: #777;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    float: left;
+}
+.buy-sell-btns button:hover{
+    background: #515151;
+    color: #fff;
+}
+.buy-sell-btns button.active{
+    background: #af0000;
+    color: #fff;
+}
+.operation-button{
+    display: block;
+    background: #af0000;
+    width: 140px;
+    height: 49px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 50px auto;
+}
+
+.bitcalc-form{
+    text-align: center;
+    padding-top: 30px;
+}
+.bitcalc-form input{
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #777;
+}
+
+.money-count{
+    text-align: right;
+}
+
+.slider-wrapper{
+    position: relative;
+    padding: 100px 0 0 0;
+    width: 80%;
+    margin: auto;
+}
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/*******************             INDEX PAGE CSS         ********************************/
+/***************************************************************************************/
+/***************************************************************************************/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?e88y6z');
+    src: url('../fonts/icomoon.eot?e88y6z#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e88y6z') format('truetype'),
+    url('../fonts/icomoon.woff?e88y6z') format('woff'),
+    url('../fonts/icomoon.svg?e88y6z#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkbox-checked:before {
+    content: "\e900";
+}
+
+.icon-checkbox-unchecked:before {
+    content: "\e901";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 58px;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+.header__twins {
+    margin: auto;
+    line-height: 58px;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header__twins ul {
+    /*float: left;*/
+    /*width: 190px;*/
+    /*text-align: center;*/
+    display: inline-block;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.header__twins ul li{
+    float: left;
+    width: 190px;
+    text-align: center;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: url('../images/sing_up.jpg') center center;
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    width: 18%;
+    min-width: 200px;
+    margin-top: 50px;
+}
+
+.link {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 19px;
+}
+.buttons{
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+.buttons .button-reg {
+    position: relative;
+    float: left;
+    color: #000;
+    text-align: center;
+    /*margin: 21px auto 0;*/
+    line-height: 40px;
+    font-size: 12px;
+    background: #fff;
+    width: 179px;
+    cursor: pointer;
+    margin-right: 30px;
+    letter-spacing: 2px;
+}
+.buttons .button-login {
+    position: relative;
+    float: left;
+    /*font-weight: bold;*/
+    color: #000;
+    text-align: center;
+    background: #fff;
+    /*margin: 21px auto 0;*/
+    line-height: 40px;
+    font-size: 12px;
+    width: 179px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.reg-form,.login-form {
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px 40px;
+    color: #303030;
+}
+
+.reg-form-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.reg-form input, .login-form input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+}
+
+.reg-form input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    outline: none;
+}
+
+.reg-form label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.login-form label{
+    display: block;
+    margin-bottom: 29px;
+}
+
+.reg-form label.agree-message {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.remember {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+
+.remember a {
+    text-decoration: none;
+    color: #006cff;
+}
+.agree-message a {
+    text-decoration: none;
+    color: #006cff;
+}
+
+.agree-message span {
+    margin-left: 5px;
+}
+
+.agree-message > input[type="checkbox"] {
+    display: none;
+}
+
+.icon-checkbox-checked {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .icon-checkbox-checked {
+    display: inline;
+}
+
+input[type="checkbox"]:checked + .icon-checkbox-unchecked {
+    display: none;
+}
+
+.hr {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.submit-button {
+    position: absolute;
+    bottom: -69px;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    left: 0;
+    background: #000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dark-shim {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition-duration: .3s;
+}
+
+.popup {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-duration: .3s;
+}
+
+.popup.show {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+    transition-duration: .3s;
+}
+
+.dark-shim.show {
+    visibility: visible;
+    opacity: 0.5;
+    transition-duration: .3s;
+}
+
+/*footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+}*/
+
+/* Tamaya */
+.button--tamaya {
+    overflow: hidden;
+    color: #fff;
+    min-width: 180px;
+}
+.button--tamaya.button--inverted {
+    color: #fff;
+    border-color: #37474f;
+}
+.button--tamaya::before,
+.button--tamaya::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--tamaya.button--inverted::before,
+.button--tamaya.button--inverted::after {
+    background: #fff;
+    color: #fff;
+}
+.button--tamaya::before {
+    top: 0;
+    /*padding-top: 1em;*/
+}
+.button--tamaya::after {
+    bottom: 0;
+    line-height: 0;
+}
+.button--tamaya > span {
+    display: block;
+    -webkit-transform: scale3d(0.2, 0.2, 1);
+    transform: scale3d(0.2, 0.2, 1);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--tamaya:hover::before {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+.button--tamaya:hover::after {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+.button--tamaya:hover > span {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+
+@media (max-width: 700px) {
+    .reg-form, .login-form {
+        width: 80%;
+    }
+}
+@media (max-width: 400px) {
+    .reg-form, .login-form {
+        width: auto;
+        min-width: 200px;
+    }
+    .buttons{
+        width: 179px;
+    }
+    .buttons .button-reg{
+        float: none;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 360px) {
+    footer{
+        display: none;
+    }
+}
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/*******************             Ion CheckRadio Green Skin         *********************/
+/***************************************************************************************/
+/***************************************************************************************/
+/* Ion.CheckRadio, Green Skin
+// Version 2.0.0
+//
+// © Denis Ineshin, 2015
+// https://github.com/IonDen
+// ===================================================================================================================*/
+
+.icr-label {
+    padding-right: 2px;
+    margin: 0 5px 5px 0;
+    font-size: 14px; line-height: 18px;
+}
+
+.icr-item {
+    width: 23px; height: 23px;
+    background: url(../img/icr-green-skin.png) no-repeat;
+}
+
+.icr-label.focused .icr-item:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -2px; left: -2px;
+    /*border: 1px dotted rgba(0, 0, 0, 0.3);*/
+}
+.icr-label.focused .type_checkbox:after {
+    width: 25px; height: 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.icr-label.focused .type_radio:after {
+    width: 22px; height: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+}
+
+
+
+
+
+
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                  New Wallet Account              *********************/
+/***************************************************************************************/
+/***************************************************************************************/
+button {
+    outline: none;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+}
+.ionTabs__body {
+    border-top: 0;
+}
+
+.buy-page {
+    margin: 0 0 30px;
+    padding: 28px 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.buy-page h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.verify-info-text {
+    text-align: center;
+}
+
+.support-tab__buttons {
+    overflow: hidden;
+    margin: 0px auto 0 auto;
+}
+
+.support-tab__buttons .button-send{
+    background: #555;
+    border: 0;
+    color: #fff;
+}
+
+.support-tab__buttons .button-add{
+    background: #000;
+    border: 0;
+    color: #12ff00;
+}
+
+.support-tab__buttons .button {
+    margin: 10px 0;
+    float: left;
+    width: 49%;
+    height: 36px;
+    outline: none;
+    -webkit-box-shadow:rgba(255, 255, 255, 0.498039) 0px 0px 10px 0px;
+    -moz-box-shadow:rgba(255, 255, 255, 0.498039) 0px 0px 10px 0px;
+    box-shadow:rgba(255, 255, 255, 0.498039) 0px 0px 10px 0px;
+}
+
+.support-tab__buttons .button-send {
+    margin-right: 1%;
+}
+
+.support-tab__buttons .button-add {
+    margin-left: 1%;
+}
+
+.red-button {
+    background: #890d0a;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ionTabs__head {
+    width: 326px;
+    margin-top: 30px;
+}
+
+.ionTabs__head li:last-child {
+    margin-right: 0;
+}
+
+.ionTabs__tab {
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.hr {
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+.new-wallet__inner-header__account {
+    height: 33px;
+    background: #555;
+    margin: 3px 0;
+    line-height: 33px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.new-wallet__accounts__table {
+    width: 100%;
+    margin-top: 15px;
+}
+table{
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+.new-wallet__accounts__table thead {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.new-wallet__accounts__table thead tr td{
+    padding: 0 0 5px 0;
+}
+
+.new-wallet__accounts__table tbody tr {
+    font-weight: bold;
+    /*border: 1px solid #000;*/
+    line-height: 29px;
+    font-size: 12px;
+    outline: 1px solid #000;
+}
+
+.new-wallet__accounts__table tbody tr td.name{
+    padding: 0 5px;
+    font-size: 14px;
+}
+.new-wallet__accounts__table tbody tr td.buttons{
+    width: 209px;
+}
+
+.green-span{
+    color: #039024;
+}
+
+.unconfigured{
+    padding: 2px;
+    background-color:  #ff8a00;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.primary{
+    background-color:  #890d0a;
+    padding: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.get-button{
+    position: relative;
+    background-color: #6c6c6c;
+    display: block;
+    width: 106px;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.up-button{
+    position: relative;
+    background-color:  #555555;
+    display: block;
+    width: 24px;
+    height: 21px;
+    float: left;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.up-button img{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+
+.rename-button{
+    display: block;
+    background-color:  #323131;
+    width: 52px;
+    height: 21px;
+    line-height: 21px;
+    float: left;
+    padding: 0 5px;
+    margin-left: 2px;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.close-button{
+    display: block;
+    float: left;
+    background-color:  #f26d7d;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.under-table-info{
+    font-size: 11px;
+    border-bottom: 1px solid #000;
+    padding: 10px 0 13px 0;
+}
+.transfer-bit-button{
+    margin-top: 30px;
+    text-align: center;
+}
+.transfer-bit-button img{
+    margin: 10px 0 10px 0;
+}
+.transfer-bit-button button{
+    margin: 20px 0;
+    width: 49%;
+    height: 36px;
+    outline: none;
+    margin-bottom: 5px;
+}
+.transfer-bit-button button img{
+    margin-left: 10px;
+}
+
+.info-text{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.get-button img{
+    position: absolute;
+    top: 6px;
+    right: 3px;
+}
+
+.dark-shim{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: all .3s ease;
+}
+.dark-shim.show{
+    visibility: visible;
+    opacity: 0.75;
+}
+
+.popup-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.popup-wrapper.show{
+    visibility: visible;
+    opacity: 1;
+    display: flex!important;
+}
+.popup-block{
+    width: 600px;
+}
+.popup-block .popup-header{
+    background: #890d0a;
+    border: none;
+    color: white;
+    height: 36px;
+    line-height: 39px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.popup-body{
+    background: #fff;
+    min-height: 200px;
+    margin-top: 5px;
+    padding: 15px;
+    opacity: .8;
+}
+
+.popup-body__tr-bitcoin{
+    border: 1px solid #000;
+}
+
+.popup-body__tr-bitcoin table{
+    width: 80%;
+    margin: 30px auto 18px auto;
+    border-spacing: 23px;
+    font-weight: bold;
+}
+.popup-body__tr-bitcoin table select{
+    width: 100%;
+    height: 29px;
+    background: #c2c2c2;
+    border: 1px solid #000;
+    font-weight: normal;
+    padding: 0 10px;
+}
+.popup-body__tr-bitcoin table input{
+    width: 100%;
+    height: 29px;
+    background: #c2c2c2;
+    border: 1px solid #000;
+    font-weight: normal;
+    padding: 0 10px;
+}
+.popup-body__tr-bitcoin table textarea{
+    width: 100%;
+    resize: vertical;
+    border: 1px solid #000;
+    height: 87px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.align-top{
+    vertical-align: top;
+}
+
+.transfer-bitcoin-popup{
+    display: none;
+}
+
+.add-wallet-popup{
+    display: none;
+}
+
+.popup-body__verify-phone__message{
+    padding: 15px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.popup-body__verify-phone__message img{
+    float: left;
+    margin-right: 20px;
+}
+
+.popup-body__verify-phone__verify-block{
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.popup-body__verify-phone__verify-block img{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************              Ion  Tabs SkinBordered              *********************/
+/***************************************************************************************/
+/***************************************************************************************/
+
+/* Ion.Tabs: Bordered Skin
+// css version 1.0.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Ion.Tabs: Skin details */
+
+.ionTabs {
+    margin: 0 0 30px;
+    padding: 28px 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+.ionTabs__head {
+    /*border-bottom: 1px solid #cecece;*/
+}
+
+.ionTabs__tab {
+    font-size: 14px; 
+    line-height: 13px;
+    border-bottom: none;
+    padding: 17px 15px 10px;
+    margin-right: 10px;
+    color: #484848;
+    text-align: center;
+    min-width: 50px;
+}
+    .ionTabs__tab:hover {
+        background: #b7b7b7;
+    }
+    .ionTabs__tab.ionTabs__tab_state_active {
+        margin-top: 0;
+        padding: 12px 25px 11px;
+        background: #b7b7b7;
+        color: #AF0000;
+        border: 1px solid black;
+        border-top: 3px solid #AF0000;
+        font-weight: bold;
+        border-bottom: 1px solid transparent;
+    }
+
+.ionTabs__body {
+    max-width: 1300px;
+    margin: auto;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.ionTabs__item {
+    padding: 15px 26px;
+}
+
+.ionTabs__preloader {
+    height: 50px;
+    background: url(../images/preloader-flat.gif) no-repeat 25px 50%;
+}
+
+
+
+
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                  Phone Verification              *********************/
+/***************************************************************************************/
+/***************************************************************************************/
+.phone-verification-tabs-wrapper {
+    width: 100%;
+    background: rgba(85, 85, 85, 0.5);
+    padding: 15px;
+}
+
+.phone-verification__frame {
+    border: 1px solid #fff;
+}
+
+.phone-verification__image {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.phone-verification__info {
+    width: 429px;
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.phone-verification__info div img {
+    float: left;
+    margin: 3px 20px 0 0;
+}
+
+.phone-verification__contacts-block {
+    width: 405px;
+    margin: 20px auto 40px auto;
+    overflow: hidden;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.phone-verification__contacts-block select, .phone-verification__contacts-block input {
+    display: block;
+    border: 1px solid #fff;
+    background: #c2c2c2;
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+.choose-country {
+    width: 45%;
+    float: left;
+}
+
+.choose-number {
+    width: 45%;
+    float: right;
+}
+
+.phone-verification__butons {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.phone-verification__butons .button-back {
+    width: 49%;
+    height: 36px;
+    float: left;
+    background: #636363;
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+.phone-verification__butons .button-back:hover {
+    background: #828181;
+}
+.phone-verification__butons .button-next {
+    width: 49%;
+    height: 36px;
+    float: right;
+    background: #363636;
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+.phone-verification__butons .button-next:hover {
+    background: #525252;
+}
+
+.phone-verification-info{
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 0 20px;
+}
+.inner-wrapper{
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+}
+.inner-wrapper span{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.inner-wrapper .sms{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #fff;
+    padding: 40px;
+}
+.inner-wrapper .phone-call{
+    width: 50%;
+    float: right;
+    padding: 40px;
+}
+
+.sms .button, .phone-call .button{
+    display: block;
+    height: 36px;
+    width: 90%;
+    margin: 20px auto;
+    background: #890d0a;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+}
+.sms .button:hover, .phone-call .button:hover{
+    background: #A9100C;
+}
+
+.number-copy{
+    height: 37px;
+    width: 60%;
+    background: #555;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 27px;
+    margin: 0 auto 20px auto;
+}
+
+
+.inner-wrapper input{
+    display: block;
+    text-align: center;
+    height: 35px;
+    width: 60%;
+    background: #c2c2c2;
+    border: 1px solid #fff;
+    color: #000;
+    padding: 0 20px;
+    font-size: 19px;
+    margin: 0 auto 20px auto;
+}
+
+.next-inner-wrapper{
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+}
+.next-inner-wrapper h1{
+    color: #890d0a;
+    font-size: 23px;
+    font-weight: bold;
+}
+.next-inner-wrapper img{
+    margin-left: 60px;
+}
+.next-inner-wrapper span{
+    font-size: 12px;
+}
+.last-message{
+    margin: 20px auto 0 auto;
+    width: 79%;
+    padding: 40px 0 20px 0;
+    border-top: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+}
+.button-start{
+    background: #890d0a;
+    width: 100%;
+    height: 36px;
+    float: left;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+}
+.button-start:hover{
+    background: #A9100C;
+}
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                    Security Page                 *********************/
+/***************************************************************************************/
+/***************************************************************************************/
+.security-tab__ticket-message .header {
+    height: 40px;
+    background: #555;
+    margin: 10px 0;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 0;
+}
+.security-tab__ticket-message .header span {
+    float: right;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.security-tab__block{
+    width: 49%;
+    background: rgba(85, 85, 85, 0.5);
+}
+.security-tab__block.left{
+    height: 456px;
+    float: left;
+}
+.security-tab__block.right{
+    height: 456px;
+    float: right;
+    /*padding-bottom: 100%;*/
+    /*margin-bottom: -100%;*/
+}
+.security-tab__block h1{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.security-tab__block.left .frame img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+.frame{
+    position: relative;
+    border: 1px solid #fff;
+    margin: 15px;
+    padding: 10px;
+}
+.frame:hover{
+    background: #888;cursor: pointer;
+}
+.left .frame:first-child{
+    height: 200px;
+    margin-bottom: 0px;
+}
+.left .frame:last-child{
+    margin-top: 0px;
+}
+.frame.bottom img{
+    margin-right: 10px;
+}
+.frame p{
+    font-size: 12px;
+    color: #000;
+    width: 76%;
+    margin-top: 18px;
+}
+.top-line, .bottom-line{
+    width: 1px;
+    height: 30px;
+    border-right: 1px solid #fff;
+    margin: 10px auto;
+}
+.middle-line{
+    margin:auto;
+    width: 20px;
+    color: #fff;
+}
+.right{
+    padding: 15px;
+}
+.right .frame{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+.right h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.right p{
+    width: 100%;
+    text-align: center;
+}
+.warning{
+    color: #AF0000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.security-tabs-wrapper{
+    overflow: hidden;
+}
+
+.security-info{
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                   Support page(tab)                *******************/
+/***************************************************************************************/
+/***************************************************************************************/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../fonts/icomoon.eot?e88y6z');
+    src: url('../../fonts/icomoon.eot?e88y6z#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?e88y6z') format('truetype'),
+    url('../../fonts/icomoon.woff?e88y6z') format('woff'),
+    url('../../fonts/icomoon.svg?e88y6z#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bin2:before {
+    content: "\e902";
+}
+
+.icon-star-empty:before {
+    content: "\e903";
+}
+
+.icon-star-full:before {
+    content: "\e904";
+}
+
+.icon-checkbox-checked:before {
+    content: "\e900";
+}
+
+.icon-checkbox-unchecked:before {
+    content: "\e901";
+}
+
+.icon-info:before {
+    content: "\e905";
+}
+
+.icon-circle-down:before {
+    content: "\e906";
+}
+
+.h1-header {
+    margin: 20px 0 0 0;
+}
+
+.support-tab__choose-category {
+    width: 100%;
+    overflow: hidden;
+}
+
+.support-tab__choose-category select {
+    width: 45%;
+    float: right;
+    padding: 0 10px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.support-tab__ticket-message {
+    border-bottom: 1px solid #000;
+}
+
+.support-tab__ticket-message .header {
+    height: 40px;
+    background: #555;
+    margin: 10px 0;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.support-tab__ticket-message textarea {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+    outline: none;
+    padding: 10px;
+}
+
+.support-tab__ticket-message .message {
+    float: left;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.support-tab__ticket-message .attachment-files {
+    float: right;
+    font-size: 12px;
+    color: #006cff;
+}
+
+.support-tab__ticket-message .attachment-files span {
+    line-height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.support-tab__buttons {
+    clear: both;
+    margin: 10px 0;
+}
+
+.support-tab__buttons .button {
+    margin: 10px 0;
+    float: left;
+    width: 49%;
+    height: 36px;
+    outline: none;
+}
+
+.support-tab__buttons .button-send {
+    margin-right: 1%;
+}
+
+.support-tab__buttons .button-add {
+    margin-left: 1%;
+}
+
+.clear {
+    clear: both;
+}
+
+.your-message-block {
+    margin-top: 30px;
+}
+
+.your-message-block__info {
+    width: 119px;
+    float: left;
+    margin-right: -150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.your-message-block__info__header {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.m-info {
+    font-weight: bold;
+    color: #AF0000;
+}
+
+.m-info .sort {
+    display: inline-block;
+}
+
+.inbox, .outbox, .market, .important, .sort {
+    cursor: pointer;
+}
+
+.market {
+    margin-top: 10px;
+}
+
+.black-color {
+    color: #000;
+}
+
+.write-message-block {
+    position: relative;
+    width: 49%;
+    float: left;
+    padding-left: 132px;
+}
+
+.write-message-block__header {
+    background: rgba(100, 100, 100, .6);
+    width: 100%;
+    height: 20px;
+    padding: 0 3px;
+}
+
+.write-message-block__header .more {
+    height: 100%;
+    width: 60px;
+    line-height: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.write-message-block__header .remove {
+    float: left;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+.check-all input, .check-star input {
+    display: none;
+}
+
+.check-star {
+    margin-left: 2px;
+    margin-right: 20px;
+    cursor: pointer;
+    float: left;
+    margin-top: 1px;
+}
+
+.check-all {
+    float: left;
+    margin: 0 7px 0 0;
+    margin-top: 1px;
+}
+
+.icon-checkbox-checked, .icon-star-full {
+    display: none;
+}
+
+.check-all input[type="checkbox"]:checked ~ .icon-checkbox-checked {
+    display: inline;
+}
+
+.check-all input[type="checkbox"]:checked + .icon-checkbox-unchecked {
+    display: none;
+}
+
+.check-star input[type="checkbox"]:checked ~ .icon-star-full {
+    display: inline;
+}
+
+.check-star input[type="checkbox"]:checked + .icon-star-empty {
+    display: none;
+}
+.inner-block{
+    width: 100%;
+    height: 100%;
+}
+.write-message-block__body {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 2px;
+    padding: 5px 0;
+    background: rgba(100, 100, 100, .6);
+}
+
+.write-message-block__body .message-line {
+    position: relative;
+    overflow: hidden;
+    padding: 0 20px 0 3px;
+}
+
+.write-message-block__body .message-line .check-star {
+    color: #fff;
+    margin: 0 7px 0 0;
+}
+
+.message-line .icons {
+    position: absolute;
+    overflow: hidden;
+    width: 56px;
+    float: left;
+    margin-right: -56px;
+}
+
+.message-line__info {
+    float: left;
+    color: #fff;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.message-line .name, .message-line .title {
+    width: 100%;
+    float: left;
+    padding: 0 0 0 72px;
+    color: #fff;
+}
+
+.message-line .name, .message-line .title span {
+    width: 100%;
+    display: inline-block;
+    background: #696868;
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.full-message-block {
+    width: 100%;
+    height: 225px;
+    padding-left: 51%;
+}
+
+.full-message {
+    float: right;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #000;
+    overflow: auto;
+}
+
+.full-message__header {
+    padding: 10px;
+}
+
+.full-message__body {
+    padding: 0 15px;
+}
+
+.full-message__header .check-star {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.full-message__header .full-message-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #AF0000;
+}
+
+.more i{
+    font-size: 10px;
+}
+.sort i{
+    font-size: 10px;
+    color: #000;
+}
+.more{
+    position: relative;
+}
+.more-inner-block{
+    position: absolute;
+    width: 109px;
+    top: 20px;
+    z-index: 1;
+    background: #fff;
+    padding: 10px;
+    cursor: context-menu;
+}
+.more-inner-block ul{
+    list-style: none;
+    padding: 10px 0 0 5px;
+}
+.more-inner-block ul li{
+    cursor: pointer;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.more-inner-block span{
+    font-weight: bold;
+    color: #AF0000;
+}
+
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************        ion.rangeSlider.skinFlat.css                *******************/
+/***************************************************************************************/
+/***************************************************************************************/
+
+/* Ion.RangeSlider, Flat UI Skin
+// css version 2.0.3
+// © Denis Ineshin, 2014    https://github.com/IonDen
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Skin details */
+
+/*.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-bar,
+.irs-bar-edge,
+.irs-slider {
+    background: url(../img/sprite-skin-flat.png) repeat-x;
+}*/
+
+.irs {
+    height: 40px;
+}
+.irs-with-grid {
+    height: 60px;
+}
+.irs-line {
+    height: 12px; top: 25px;
+    border: 1px solid #000;
+}
+    .irs-line-left {
+        height: 12px;
+        background-position: 0 -30px;
+    }
+    .irs-line-mid {
+        height: 12px;
+        background-position: 0 0;
+    }
+    .irs-line-right {
+        height: 12px;
+        background-position: 100% -30px;
+    }
+
+.irs-bar {
+    height: 12px; top: 25px;
+    background-position: 0 -60px;
+}
+    .irs-bar-edge {
+        top: 25px;
+        height: 12px; width: 9px;
+        background-position: 0 -90px;
+    }
+
+.irs-shadow {
+    height: 3px; top: 34px;
+    background: #000;
+    opacity: 0.25;
+}
+.lt-ie9 .irs-shadow {
+    filter: alpha(opacity=25);
+}
+
+.irs-slider {
+    width: 16px; height: 18px;
+    top: 22px;
+    background-position: 0 -120px;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+    background-position: 0 -150px;
+}
+
+.irs-min, .irs-max {
+    display: none;
+    color: #999;
+    font-size: 10px; line-height: 1.333;
+    text-shadow: none;
+    top: 0; padding: 1px 3px;
+    background: #e1e4e9;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #fff;
+    font-size: 10px; line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    background: #af0000;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    top: 21px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    padding-top: 3px;
+}
+/*.irs-from:after, .irs-to:after, .irs-single:after {*/
+    /*position: absolute; display: block; content: "";*/
+    /*bottom: -6px; left: 50%;*/
+    /*width: 0; height: 0;*/
+    /*margin-left: -3px;*/
+    /*overflow: hidden;*/
+    /*border: 3px solid transparent;*/
+    /*border-top-color: #ed5565;*/
+/*}*/
+
+
+.irs-grid-pol {
+    background: #000;
+}
+.irs-grid-text {
+    color: #000;
+}
+
+.irs-disabled {
+}
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                      Media css                   *********************/
+/***************************************************************************************/
+/***************************************************************************************/
+@media screen and (min-width: 1800px) {
+    .ionTabs__head { width: 1230px; }
+    .ionTabs__tab { padding: 17px 12px 10px; font-size: 14px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1800px) {
+
+    .ionTabs__head { width: 1230px; }
+    .ionTabs__tab { padding: 17px 12px 10px; font-size: 15px; }
+
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    /*.cabinet_all_wrap .cabinet { width: 96%; }*/
+    .ionTabs__head { width: 1000px; }
+    .ionTabs__tab { padding: 17px 9px 10px; font-size: 12px; }
+    .ionTabs__tab.ionTabs__tab_state_active {  padding: 12px 20px 11px; }
+
+}
+
+
+@media screen and (max-width: 1135px) {
+
+    /*.cabinet_all_wrap .cabinet { width: 96%; }*/
+    .ionTabs__head { width: 900px; }
+    .ionTabs__tab {
+        padding: 17px 10px 10px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+
+}
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                                   *******************/
+/***************************************************************************************/
+/***************************************************************************************/
+/***************************************************************************************/
+/***************************************************************************************/
+/****************                                  *******************/
+/***************************************************************************************/
+/***************************************************************************************/
+
+@font-face {
+  font-family: 'Coco Gothic';
+  src:  url('/fonts/CocoGothicBoldItalic-trial.ttf') format('ttf'),
+        url('/fonts/CocoGothicBoldItalic-trial.ttf') format('truetype');
+        
+}
+
+@font-face {
+  font-family: 'Segoeui';
+  src:  url('/fonts/segoeui.ttf') format('ttf'),
+        url('/fonts/segoeui.ttf') format('truetype');
+        
+}
+
+
+
+
+
